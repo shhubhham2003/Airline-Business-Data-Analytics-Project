@@ -1,0 +1,120 @@
+customer_id,gender,customer_type,age,type_of_travel,class,flight_distance,inflight_wifi_service,departure_arrival_time_convenience,ease_of_online_booking,gate_location,food_and_drink,online_boarding,seat_comfort,inflight_entertainment,on_board_service,leg_room_service,baggage_handling,checkin_service,inflight_service,cleanliness,departure_delay_in_minutes,arrival_delay_in_minutes,satisfaction
+91467,F,disloyal,26,business,eco,459,4.0,4.0,5.0,4.0,5.0,2.0,4.0,2.0,3.0,2.0,4,4.0,4.0,4.0,412,459,satisfied
+74564,M,loyal,27,business,eco,1235,4.0,1.0,1.0,1.0,4.0,4.0,4.0,1.0,1.0,3.0,4,4.0,2.0,4.0,391,354,neutral or dissatisfied
+91443,M,loyal,32,business,business,859,5.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,3.0,5.0,5,4.0,3.0,4.0,435,470,satisfied
+83874,M,loyal,46,business,business,1670,1.0,1.0,1.0,1.0,5.0,5.0,5.0,4.0,3.0,3.0,5,5.0,5.0,5.0,480,471,satisfied
+39675,F,loyal,41,business,business,3517,1.0,1.0,5.0,1.0,4.0,4.0,4.0,5.0,3.0,2.0,4,4.0,5.0,4.0,438,438,satisfied
+10100,M,loyal,32,personal,eco,961,1.0,5.0,2.0,3.0,2.0,5.0,5.0,3.0,5.0,5.0,5,5.0,3.0,5.0,472,446,neutral or dissatisfied
+75977,M,disloyal,36,business,eco,297,1.0,4.0,1.0,3.0,1.0,4.0,4.0,3.0,2.0,4.0,3,4.0,4.0,4.0,447,433,neutral or dissatisfied
+69661,M,loyal,32,business,business,2916,2.0,2.0,2.0,2.0,5.0,5.0,5.0,3.0,4.0,5.0,4,5.0,3.0,5.0,1305,1280,satisfied
+73083,F,disloyal,39,business,eco,685,3.0,3.0,3.0,3.0,3.0,4.0,4.0,5.0,3.0,1.0,5,4.0,1.0,4.0,652,638,neutral or dissatisfied
+64165,M,loyal,33,personal,eco,989,1.0,5.0,,3.0,,1.0,1.0,4.0,2.0,5.0,5,1.0,4.0,1.0,726,691,neutral or dissatisfied
+37573,F,disloyal,20,business,eco,641,5.0,,5.0,5.0,5.0,1.0,5.0,4.0,5.0,3.0,1,5.0,5.0,5.0,505,486,satisfied
+100409,M,loyal,58,business,business,3266,2.0,2.0,4.0,2.0,4.0,5.0,5.0,5.0,3.0,5.0,5,5.0,5.0,5.0,394,383,satisfied
+35105,M,disloyal,38,business,eco,944,3.0,3.0,3.0,2.0,3.0,1.0,1.0,3.0,1.0,2.0,4,1.0,1.0,1.0,566,600,neutral or dissatisfied
+3346,M,loyal,21,business,eco,240,4.0,2.0,2.0,2.0,3.0,2.0,4.0,3.0,2.0,3.0,3,4.0,1.0,4.0,537,524,neutral or dissatisfied
+24021,M,loyal,44,business,business,562,2.0,3.0,3.0,3.0,2.0,2.0,2.0,4.0,4.0,2.0,3,2.0,1.0,2.0,383,386,neutral or dissatisfied
+14946,M,loyal,40,business,business,2907,4.0,4.0,5.0,4.0,4.0,3.0,3.0,5.0,2.0,3.0,3,3.0,1.0,3.0,392,381,satisfied
+82145,M,disloyal,21,business,eco,237,1.0,5.0,1.0,4.0,1.0,5.0,4.0,3.0,3.0,5.0,5,4.0,4.0,4.0,419,460,neutral or dissatisfied
+47207,F,loyal,39,personal,eco,954,3.0,4.0,3.0,4.0,3.0,3.0,3.0,4.0,3.0,4.0,4,3.0,3.0,3.0,423,418,neutral or dissatisfied
+92522,M,loyal,13,personal,eco,2092,2.0,,2.0,5.0,2.0,2.0,2.0,5.0,3.0,4.0,4,2.0,5.0,2.0,454,454,neutral or dissatisfied
+50110,M,disloyal,25,business,eco,86,1.0,1.0,1.0,4.0,1.0,5.0,5.0,3.0,2.0,3.0,3,5.0,4.0,5.0,459,445,neutral or dissatisfied
+106834,M,loyal,60,business,business,1733,4.0,4.0,4.0,4.0,4.0,4.0,4.0,3.0,5.0,3.0,4,4.0,5.0,4.0,381,436,satisfied
+69504,M,loyal,27,business,business,1746,1.0,1.0,4.0,1.0,4.0,5.0,5.0,4.0,3.0,5.0,4,5.0,4.0,5.0,859,860,satisfied
+5173,F,loyal,42,personal,business,351,2.0,3.0,2.0,2.0,2.0,3.0,3.0,1.0,3.0,3.0,2,3.0,3.0,3.0,692,702,neutral or dissatisfied
+35117,M,loyal,33,business,business,1971,3.0,3.0,3.0,3.0,5.0,5.0,5.0,4.0,3.0,2.0,2,5.0,3.0,5.0,465,493,satisfied
+42704,F,loyal,26,personal,eco,604,2.0,5.0,2.0,5.0,2.0,2.0,5.0,3.0,5.0,4.0,5,5.0,4.0,5.0,426,427,neutral or dissatisfied
+14340,M,loyal,14,personal,eco,395,1.0,5.0,2.0,1.0,2.0,2.0,2.0,4.0,4.0,5.0,4,2.0,4.0,2.0,519,516,neutral or dissatisfied
+18703,M,loyal,47,business,eco plus,190,2.0,4.0,4.0,4.0,2.0,2.0,2.0,4.0,4.0,3.0,2,2.0,5.0,2.0,414,410,satisfied
+92493,M,loyal,45,business,eco,447,5.0,2.0,2.0,2.0,5.0,3.0,3.0,3.0,2.0,4.0,3,3.0,3.0,3.0,559,555,satisfied
+16964,F,disloyal,25,business,eco,195,3.0,4.0,3.0,3.0,3.0,4.0,4.0,3.0,1.0,3.0,4,4.0,3.0,4.0,382,392,neutral or dissatisfied
+93393,F,loyal,58,business,business,723,5.0,5.0,5.0,5.0,4.0,4.0,4.0,4.0,2.0,5.0,4,4.0,5.0,4.0,401,404,satisfied
+38562,F,loyal,39,personal,eco,2475,3.0,1.0,3.0,2.0,3.0,1.0,1.0,1.0,2.0,2.0,3,1.0,4.0,1.0,376,382,neutral or dissatisfied
+20232,F,loyal,37,business,business,228,1.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,4.0,4.0,4,1.0,4.0,1.0,394,362,neutral or dissatisfied
+49615,F,loyal,21,business,business,3043,1.0,1.0,1.0,1.0,5.0,3.0,4.0,4.0,1.0,4.0,5,4.0,2.0,4.0,450,470,satisfied
+108389,M,loyal,9,personal,eco,1750,3.0,4.0,3.0,3.0,3.0,1.0,1.0,1.0,3.0,4.0,4,1.0,2.0,1.0,448,445,neutral or dissatisfied
+34473,M,disloyal,25,business,business,266,5.0,3.0,5.0,3.0,5.0,4.0,4.0,1.0,1.0,2.0,1,4.0,2.0,4.0,398,392,satisfied
+78292,M,loyal,23,business,eco,998,5.0,2.0,2.0,2.0,5.0,5.0,5.0,1.0,1.0,2.0,4,5.0,1.0,5.0,750,729,satisfied
+33506,M,loyal,31,personal,eco,965,3.0,4.0,3.0,5.0,3.0,3.0,3.0,5.0,3.0,4.0,4,3.0,3.0,3.0,365,357,neutral or dissatisfied
+8820,F,loyal,20,personal,eco,522,2.0,4.0,2.0,3.0,2.0,3.0,3.0,4.0,3.0,5.0,4,3.0,3.0,3.0,454,458,neutral or dissatisfied
+14107,F,loyal,65,personal,eco,453,3.0,2.0,3.0,3.0,3.0,4.0,4.0,4.0,3.0,3.0,3,4.0,4.0,4.0,514,624,neutral or dissatisfied
+57404,M,disloyal,21,business,eco,524,5.0,,5.0,4.0,,4.0,4.0,4.0,5.0,5.0,5,4.0,4.0,4.0,398,377,satisfied
+35826,M,loyal,37,business,eco,997,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,2.0,1.0,5,4.0,1.0,4.0,371,372,satisfied
+60054,M,loyal,22,personal,eco plus,997,3.0,4.0,2.0,2.0,2.0,4.0,4.0,3.0,5.0,4.0,4,4.0,5.0,4.0,437,429,neutral or dissatisfied
+20632,M,loyal,30,business,business,1549,3.0,3.0,3.0,3.0,5.0,5.0,5.0,5.0,5.0,2.0,2,5.0,3.0,5.0,600,589,satisfied
+36030,M,loyal,34,business,business,2881,4.0,4.0,4.0,4.0,4.0,3.0,3.0,2.0,1.0,4.0,4,3.0,3.0,3.0,454,502,satisfied
+34667,F,loyal,39,business,business,2056,1.0,5.0,5.0,5.0,1.0,1.0,1.0,1.0,3.0,3.0,4,1.0,1.0,1.0,460,457,neutral or dissatisfied
+36020,M,disloyal,39,business,eco,399,2.0,,2.0,1.0,2.0,3.0,3.0,2.0,2.0,5.0,2,3.0,1.0,3.0,383,401,neutral or dissatisfied
+36881,M,loyal,57,business,eco,1182,3.0,4.0,4.0,4.0,3.0,3.0,3.0,1.0,5.0,3.0,4,3.0,2.0,3.0,452,440,neutral or dissatisfied
+113170,F,loyal,48,personal,eco,628,1.0,5.0,1.0,5.0,1.0,4.0,3.0,4.0,4.0,5.0,5,3.0,5.0,3.0,371,372,neutral or dissatisfied
+59517,M,loyal,20,personal,business,965,4.0,4.0,4.0,4.0,4.0,4.0,4.0,1.0,4.0,4.0,3,4.0,1.0,4.0,368,357,satisfied
+59397,M,loyal,48,personal,eco,2556,1.0,4.0,1.0,4.0,1.0,1.0,1.0,3.0,3.0,2.0,2,1.0,2.0,1.0,626,604,neutral or dissatisfied
+89638,M,loyal,29,business,business,944,2.0,5.0,5.0,5.0,2.0,2.0,2.0,2.0,4.0,3.0,3,2.0,4.0,2.0,729,717,neutral or dissatisfied
+4796,F,loyal,68,personal,eco,438,2.0,5.0,2.0,4.0,2.0,3.0,4.0,3.0,2.0,5.0,4,4.0,5.0,4.0,362,356,neutral or dissatisfied
+79912,M,loyal,15,business,business,3979,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,4.0,3,2.0,3.0,2.0,853,823,neutral or dissatisfied
+89770,F,loyal,41,personal,eco,1076,2.0,5.0,2.0,1.0,2.0,3.0,1.0,5.0,2.0,5.0,5,1.0,4.0,1.0,446,431,neutral or dissatisfied
+9080,M,loyal,40,personal,eco,173,3.0,3.0,,3.0,,3.0,5.0,5.0,1.0,1.0,1,5.0,5.0,5.0,399,432,neutral or dissatisfied
+56472,M,loyal,47,personal,eco plus,719,2.0,4.0,3.0,1.0,3.0,1.0,1.0,4.0,4.0,5.0,5,1.0,4.0,1.0,396,403,neutral or dissatisfied
+121253,M,loyal,15,business,business,2075,3.0,1.0,1.0,1.0,3.0,3.0,3.0,2.0,5.0,4.0,3,3.0,4.0,3.0,463,503,neutral or dissatisfied
+19226,F,loyal,32,personal,eco,459,3.0,4.0,3.0,3.0,3.0,5.0,5.0,3.0,5.0,4.0,4,5.0,3.0,5.0,364,381,neutral or dissatisfied
+69697,M,loyal,44,business,business,1372,3.0,3.0,3.0,3.0,5.0,5.0,5.0,3.0,4.0,5.0,4,5.0,3.0,5.0,394,407,satisfied
+114281,F,loyal,10,personal,eco,853,3.0,4.0,3.0,3.0,3.0,4.0,4.0,4.0,5.0,4.0,4,4.0,5.0,4.0,372,368,neutral or dissatisfied
+92759,F,loyal,65,personal,eco,1276,4.0,2.0,4.0,4.0,4.0,2.0,2.0,3.0,3.0,2.0,4,2.0,3.0,2.0,401,435,neutral or dissatisfied
+35422,F,loyal,17,personal,eco,1041,,1.0,,3.0,1.0,4.0,4.0,3.0,1.0,3.0,4,4.0,1.0,4.0,427,440,satisfied
+62699,F,loyal,40,business,business,2504,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,5.0,5.0,4,4.0,3.0,4.0,429,417,satisfied
+109909,M,loyal,35,business,eco,971,3.0,4.0,5.0,4.0,2.0,3.0,3.0,2.0,5.0,3.0,3,3.0,1.0,3.0,373,358,neutral or dissatisfied
+15930,M,loyal,25,business,eco,738,3.0,5.0,5.0,5.0,3.0,3.0,3.0,2.0,5.0,4.0,3,3.0,4.0,3.0,420,416,neutral or dissatisfied
+38277,M,loyal,50,personal,eco,1111,2.0,5.0,1.0,2.0,1.0,3.0,5.0,3.0,4.0,5.0,4,5.0,3.0,5.0,579,561,neutral or dissatisfied
+4376,F,loyal,53,business,business,2418,3.0,4.0,4.0,4.0,3.0,3.0,3.0,3.0,5.0,2.0,2,3.0,4.0,3.0,930,952,neutral or dissatisfied
+4903,M,loyal,49,business,business,1959,1.0,1.0,1.0,1.0,4.0,4.0,4.0,4.0,4.0,4.0,5,4.0,4.0,4.0,1017,1011,satisfied
+83676,M,disloyal,43,business,business,577,3.0,3.0,3.0,2.0,3.0,5.0,5.0,5.0,4.0,5.0,5,5.0,3.0,5.0,921,924,neutral or dissatisfied
+92465,M,loyal,24,business,business,1947,3.0,4.0,4.0,4.0,3.0,3.0,3.0,3.0,4.0,1.0,1,3.0,1.0,3.0,370,341,neutral or dissatisfied
+109423,F,disloyal,13,business,business,861,3.0,2.0,3.0,3.0,3.0,1.0,1.0,1.0,1.0,3.0,4,1.0,2.0,1.0,378,424,neutral or dissatisfied
+17694,F,loyal,18,business,business,680,5.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,4.0,5.0,2,4.0,4.0,4.0,595,589,satisfied
+15726,M,disloyal,26,business,eco,424,1.0,2.0,1.0,4.0,1.0,5.0,5.0,2.0,3.0,3.0,4,5.0,2.0,5.0,491,485,neutral or dissatisfied
+75298,M,loyal,31,personal,eco plus,1726,3.0,5.0,4.0,3.0,4.0,2.0,1.0,4.0,4.0,5.0,5,1.0,3.0,1.0,469,443,neutral or dissatisfied
+19740,M,loyal,17,business,eco plus,409,4.0,3.0,3.0,3.0,4.0,2.0,4.0,3.0,1.0,3.0,4,4.0,3.0,4.0,437,518,neutral or dissatisfied
+74406,M,disloyal,26,business,business,1205,5.0,5.0,5.0,2.0,5.0,2.0,2.0,4.0,4.0,4.0,4,2.0,3.0,2.0,452,444,satisfied
+18759,F,loyal,48,business,eco,1039,5.0,2.0,2.0,2.0,5.0,3.0,3.0,2.0,5.0,5.0,5,3.0,4.0,3.0,410,397,satisfied
+39470,M,loyal,35,business,business,867,5.0,5.0,3.0,5.0,3.0,3.0,3.0,2.0,2.0,3.0,3,3.0,1.0,3.0,610,593,satisfied
+18469,M,loyal,35,business,business,2661,3.0,5.0,5.0,5.0,2.0,3.0,2.0,3.0,4.0,4.0,3,2.0,3.0,2.0,388,380,neutral or dissatisfied
+91935,F,loyal,30,business,business,2475,2.0,1.0,3.0,1.0,2.0,2.0,2.0,4.0,2.0,4.0,4,2.0,1.0,2.0,748,720,neutral or dissatisfied
+9126,F,loyal,39,personal,eco,765,3.0,2.0,3.0,3.0,3.0,5.0,5.0,4.0,3.0,4.0,3,5.0,2.0,5.0,433,455,neutral or dissatisfied
+29974,M,loyal,50,business,business,95,1.0,3.0,3.0,3.0,4.0,1.0,3.0,4.0,3.0,4.0,4,3.0,2.0,3.0,455,0,neutral or dissatisfied
+58755,F,loyal,28,business,business,2472,3.0,5.0,5.0,5.0,3.0,3.0,3.0,4.0,5.0,3.0,3,3.0,4.0,3.0,444,434,neutral or dissatisfied
+78300,M,loyal,30,personal,eco,1598,1.0,4.0,1.0,2.0,1.0,1.0,1.0,5.0,3.0,4.0,4,1.0,4.0,1.0,978,970,neutral or dissatisfied
+57057,F,loyal,29,personal,eco,2133,2.0,2.0,1.0,3.0,1.0,4.0,4.0,2.0,2.0,4.0,3,4.0,1.0,4.0,365,383,neutral or dissatisfied
+23592,F,loyal,51,personal,eco,1069,2.0,5.0,2.0,1.0,2.0,2.0,2.0,3.0,2.0,4.0,5,2.0,5.0,2.0,496,470,neutral or dissatisfied
+5471,F,loyal,33,personal,eco,265,2.0,5.0,,4.0,,1.0,1.0,3.0,4.0,5.0,4,1.0,5.0,1.0,389,378,neutral or dissatisfied
+105095,F,loyal,56,business,business,2788,3.0,3.0,3.0,3.0,5.0,5.0,5.0,4.0,4.0,4.0,4,5.0,3.0,5.0,415,410,satisfied
+84219,F,loyal,78,business,eco,432,2.0,3.0,4.0,4.0,2.0,2.0,2.0,4.0,1.0,3.0,3,2.0,1.0,2.0,362,371,neutral or dissatisfied
+42487,F,loyal,58,business,eco,585,4.0,2.0,2.0,2.0,4.0,4.0,4.0,2.0,2.0,1.0,2,4.0,5.0,4.0,454,448,satisfied
+8345,M,loyal,47,business,business,2187,4.0,5.0,4.0,4.0,4.0,4.0,4.0,5.0,4.0,5.0,5,4.0,4.0,4.0,933,920,satisfied
+51703,F,disloyal,40,business,business,261,1.0,1.0,1.0,3.0,1.0,3.0,3.0,3.0,4.0,3.0,3,3.0,4.0,3.0,402,389,neutral or dissatisfied
+3177,M,loyal,36,business,business,2354,5.0,5.0,5.0,5.0,4.0,4.0,4.0,5.0,2.0,4.0,4,4.0,5.0,4.0,407,409,satisfied
+33367,M,loyal,48,personal,eco,2355,3.0,4.0,3.0,3.0,3.0,2.0,2.0,5.0,3.0,4.0,4,2.0,3.0,2.0,414,0,neutral or dissatisfied
+78512,F,loyal,34,business,business,2353,4.0,4.0,4.0,4.0,3.0,4.0,4.0,2.0,5.0,4.0,2,4.0,2.0,4.0,410,435,satisfied
+73471,F,loyal,47,personal,eco,1120,2.0,2.0,2.0,3.0,2.0,4.0,2.0,2.0,4.0,4.0,4,2.0,3.0,2.0,1592,1584,neutral or dissatisfied
+35047,M,loyal,41,business,business,3494,1.0,1.0,1.0,1.0,5.0,5.0,5.0,4.0,2.0,4.0,5,5.0,4.0,5.0,501,500,satisfied
+56631,F,disloyal,21,business,eco,1023,1.0,2.0,2.0,4.0,2.0,3.0,3.0,1.0,1.0,3.0,3,3.0,2.0,3.0,384,402,neutral or dissatisfied
+59984,F,loyal,50,personal,eco,1023,4.0,,5.0,5.0,5.0,4.0,3.0,4.0,4.0,4.0,5,3.0,4.0,3.0,368,350,neutral or dissatisfied
+57503,M,loyal,19,personal,eco,1075,4.0,5.0,4.0,3.0,4.0,3.0,3.0,4.0,2.0,1.0,2,3.0,1.0,3.0,377,350,neutral or dissatisfied
+15588,M,disloyal,22,business,eco,288,2.0,1.0,2.0,3.0,2.0,3.0,3.0,3.0,5.0,3.0,3,3.0,4.0,3.0,503,484,neutral or dissatisfied
+124066,F,loyal,30,personal,eco,2153,2.0,4.0,2.0,1.0,2.0,2.0,2.0,4.0,5.0,4.0,5,2.0,4.0,2.0,400,412,neutral or dissatisfied
+98489,M,disloyal,39,business,business,668,4.0,4.0,4.0,1.0,4.0,5.0,5.0,5.0,5.0,4.0,5,5.0,3.0,5.0,430,438,satisfied
+92236,M,loyal,64,personal,eco plus,1956,2.0,5.0,2.0,4.0,2.0,1.0,1.0,5.0,3.0,3.0,5,1.0,4.0,1.0,570,567,neutral or dissatisfied
+83838,M,loyal,45,business,business,448,1.0,5.0,5.0,5.0,1.0,1.0,1.0,4.0,5.0,3.0,4,1.0,4.0,1.0,389,420,neutral or dissatisfied
+68280,M,loyal,43,personal,eco plus,631,2.0,4.0,2.0,5.0,2.0,1.0,1.0,3.0,5.0,5.0,5,1.0,4.0,1.0,381,353,neutral or dissatisfied
+1107,F,loyal,24,personal,eco,164,3.0,4.0,3.0,4.0,3.0,4.0,4.0,5.0,2.0,4.0,5,4.0,3.0,4.0,423,417,neutral or dissatisfied
+84157,M,loyal,42,business,business,1355,3.0,3.0,3.0,3.0,5.0,5.0,5.0,4.0,5.0,5.0,4,5.0,5.0,5.0,423,403,satisfied
+13680,M,loyal,36,business,eco,954,3.0,3.0,3.0,3.0,3.0,3.0,3.0,1.0,1.0,4.0,2,3.0,3.0,3.0,531,485,satisfied
+115388,F,loyal,36,business,eco,337,4.0,1.0,1.0,1.0,4.0,4.0,4.0,4.0,1.0,4.0,4,4.0,3.0,4.0,363,350,neutral or dissatisfied
+107971,F,loyal,21,business,business,1783,2.0,3.0,3.0,3.0,2.0,2.0,2.0,1.0,4.0,3.0,4,2.0,4.0,2.0,503,507,neutral or dissatisfied
+93580,M,disloyal,25,business,eco,159,1.0,4.0,1.0,4.0,1.0,5.0,5.0,3.0,2.0,3.0,4,5.0,4.0,5.0,411,425,neutral or dissatisfied
+37895,M,loyal,40,business,business,3577,3.0,1.0,1.0,1.0,3.0,3.0,3.0,3.0,3.0,3.0,3,3.0,2.0,3.0,480,471,neutral or dissatisfied
+92500,M,loyal,74,business,business,2469,1.0,5.0,5.0,5.0,1.0,1.0,1.0,3.0,2.0,3.0,3,1.0,1.0,1.0,368,350,neutral or dissatisfied
+79335,F,loyal,40,business,business,3911,5.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,4.0,4.0,4,4.0,4.0,4.0,371,339,satisfied
+44327,F,loyal,40,business,eco,471,5.0,1.0,1.0,1.0,5.0,5.0,5.0,5.0,5.0,1.0,4,5.0,1.0,5.0,390,362,satisfied
+58081,F,loyal,53,business,business,2480,4.0,4.0,4.0,4.0,4.0,4.0,4.0,2.0,3.0,3.0,3,4.0,2.0,4.0,394,392,neutral or dissatisfied
+34870,F,loyal,13,business,business,2248,1.0,4.0,2.0,4.0,1.0,1.0,1.0,1.0,5.0,2.0,3,1.0,4.0,1.0,400,393,neutral or dissatisfied
+5702,F,loyal,7,personal,eco,234,1.0,5.0,,1.0,,4.0,4.0,4.0,4.0,5.0,1,4.0,2.0,4.0,724,705,neutral or dissatisfied

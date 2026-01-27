@@ -1,0 +1,732 @@
+customer_id,customer_value,gender,customer_type,age,type_of_travel,class,flight_distance,departure_delay_in_minutes,arrival_delay_in_minutes,time_recovered_in_minutes,time_recovery_status,satisfaction,satisfaction_bool,seat_comfort,leg_room_service,food_and_drink,inflight_entertainment,inflight_wifi_service,cleanliness,products_rating_score,products_rating_percentage,on_board_service,inflight_service,checkin_service,online_boarding,ease_of_online_booking,baggage_handling,gate_location,departure_arrival_time_convenience,services_rating_score,services_rating_percentage
+102068,high,M,loyal,65,personal,business,226,37,20,17,recovered,neutral or dissatisfied,False,4.0,1.0,5.0,4.0,1.0,3.0,18.0,60.0,4.0,4.0,5.0,5.0,1.0,4,1.0,4.0,28.0,70.0
+11849,high,F,loyal,65,personal,business,1042,48,30,18,recovered,neutral or dissatisfied,False,4.0,4.0,3.0,4.0,4.0,5.0,24.0,80.0,4.0,4.0,5.0,5.0,4.0,2,4.0,5.0,33.0,82.5
+3468,mid,F,loyal,64,personal,eco plus,213,0,6,-6,worsened,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,5.0,24.0,80.0,5.0,5.0,5.0,5.0,2.0,5,1.0,,28.0,70.0
+46011,mid,M,loyal,62,personal,eco plus,483,12,25,-13,worsened,neutral or dissatisfied,False,5.0,4.0,1.0,1.0,2.0,1.0,14.0,46.67,5.0,5.0,3.0,2.0,2.0,5,4.0,,26.0,65.0
+95553,mid,M,loyal,62,personal,eco plus,148,31,27,4,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,4.0,4.0,23.0,76.67,3.0,5.0,3.0,4.0,4.0,4,3.0,5.0,31.0,77.5
+104955,high,M,loyal,69,personal,business,337,14,0,14,recovered,neutral or dissatisfied,False,3.0,3.0,5.0,1.0,3.0,3.0,18.0,60.0,1.0,1.0,2.0,2.0,3.0,1,3.0,2.0,15.0,37.5
+57548,mid,F,loyal,70,personal,eco plus,413,20,20,0,same,neutral or dissatisfied,False,4.0,1.0,2.0,1.0,2.0,3.0,13.0,43.33,1.0,1.0,2.0,3.0,1.0,3,4.0,4.0,19.0,47.5
+3974,mid,F,loyal,70,personal,eco plus,764,26,22,4,recovered,neutral or dissatisfied,False,5.0,3.0,2.0,1.0,3.0,3.0,17.0,56.67,1.0,1.0,3.0,5.0,3.0,1,4.0,5.0,23.0,57.5
+55769,high,M,loyal,61,personal,business,646,40,21,19,recovered,neutral or dissatisfied,False,3.0,1.0,1.0,2.0,2.0,2.0,11.0,36.67,2.0,2.0,4.0,4.0,1.0,4,4.0,2.0,23.0,57.5
+10023,mid,M,loyal,70,personal,eco plus,534,19,18,1,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,2.0,4.0,21.0,70.0,5.0,4.0,4.0,2.0,2.0,4,2.0,4.0,27.0,67.5
+37814,mid,M,loyal,61,personal,eco plus,989,16,12,4,recovered,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,3.0,3.0,18.0,60.0,4.0,5.0,5.0,3.0,3.0,4,3.0,5.0,32.0,80.0
+126525,mid,M,loyal,61,personal,eco plus,196,2,16,-14,worsened,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,1.0,5.0,25.0,83.33,1.0,5.0,5.0,1.0,1.0,4,2.0,5.0,24.0,60.0
+104614,mid,M,loyal,68,personal,eco plus,369,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,1.0,2.0,12.0,40.0,2.0,3.0,2.0,4.0,4.0,3,3.0,2.0,23.0,57.5
+67545,high,F,loyal,63,personal,business,1431,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,4.0,5.0,3.0,3.0,21.0,70.0,5.0,5.0,2.0,3.0,3.0,5,4.0,1.0,28.0,70.0
+10260,high,M,loyal,63,personal,business,316,27,16,11,recovered,neutral or dissatisfied,False,4.0,4.0,3.0,5.0,3.0,5.0,24.0,80.0,5.0,5.0,3.0,4.0,4.0,5,4.0,,30.0,75.0
+18971,mid,F,loyal,66,personal,eco plus,448,17,13,4,recovered,neutral or dissatisfied,False,5.0,4.0,2.0,4.0,4.0,4.0,23.0,76.67,4.0,4.0,3.0,4.0,4.0,4,4.0,5.0,32.0,80.0
+65770,mid,F,loyal,69,personal,eco plus,936,1,0,1,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,5.0,22.0,73.33,3.0,3.0,3.0,5.0,3.0,3,1.0,5.0,26.0,65.0
+19147,high,F,loyal,67,personal,business,304,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,3.0,4.0,1.0,3.0,16.0,53.33,4.0,4.0,5.0,5.0,1.0,4,1.0,5.0,29.0,72.5
+11492,mid,M,loyal,64,personal,eco plus,224,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,2.0,3.0,18.0,60.0,5.0,4.0,3.0,,,4,3.0,4.0,23.0,57.5
+61861,mid,F,loyal,62,personal,eco plus,1464,26,30,-4,worsened,neutral or dissatisfied,False,5.0,3.0,3.0,1.0,3.0,3.0,18.0,60.0,1.0,1.0,4.0,3.0,3.0,1,4.0,5.0,22.0,55.0
+3927,mid,F,loyal,63,personal,eco plus,213,0,0,0,same,satisfied,True,4.0,,2.0,2.0,4.0,4.0,16.0,53.33,2.0,2.0,3.0,4.0,,1,3.0,2.0,17.0,42.5
+8321,mid,F,loyal,70,personal,eco plus,294,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,5.0,2.0,2.0,5.0,20.0,66.67,2.0,2.0,3.0,5.0,2.0,2,1.0,4.0,21.0,52.5
+17210,mid,F,loyal,66,personal,eco plus,487,0,2,-2,worsened,neutral or dissatisfied,False,4.0,3.0,3.0,4.0,3.0,4.0,21.0,70.0,4.0,4.0,3.0,4.0,3.0,4,3.0,2.0,27.0,67.5
+31870,high,F,loyal,63,personal,business,4983,3,0,3,recovered,satisfied,True,1.0,4.0,,3.0,,1.0,9.0,30.0,2.0,5.0,1.0,5.0,,3,2.0,5.0,23.0,57.5
+106791,high,M,loyal,66,personal,business,977,29,28,1,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,4.0,23.0,76.67,4.0,4.0,3.0,4.0,3.0,4,1.0,4.0,27.0,67.5
+29346,mid,F,loyal,67,personal,eco plus,569,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,4.0,1.0,4.0,18.0,60.0,4.0,4.0,3.0,5.0,2.0,4,4.0,5.0,31.0,77.5
+72847,mid,F,loyal,69,personal,eco plus,1013,0,0,0,same,satisfied,True,5.0,4.0,5.0,1.0,5.0,3.0,23.0,76.67,1.0,1.0,5.0,5.0,5.0,1,2.0,4.0,24.0,60.0
+84029,mid,F,loyal,63,personal,eco plus,321,3,0,3,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,2.0,2.0,4.0,17.0,56.67,2.0,2.0,2.0,1.0,2.0,2,2.0,3.0,16.0,40.0
+57813,mid,F,disloyal,66,personal,business,622,13,24,-11,worsened,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,3.0,2.0,16.0,53.33,1.0,1.0,3.0,3.0,3.0,3,3.0,3.0,20.0,50.0
+9797,mid,F,loyal,69,personal,eco plus,383,8,3,5,recovered,neutral or dissatisfied,False,1.0,4.0,4.0,5.0,2.0,4.0,20.0,66.67,5.0,5.0,3.0,2.0,4.0,5,4.0,5.0,33.0,82.5
+33295,mid,F,loyal,61,personal,eco plus,101,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,5.0,4.0,3.0,2.0,20.0,66.67,4.0,4.0,1.0,4.0,3.0,4,3.0,1.0,24.0,60.0
+39491,mid,F,loyal,70,personal,eco plus,867,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,5.0,2.0,4.0,22.0,73.33,5.0,5.0,4.0,3.0,2.0,5,2.0,4.0,30.0,75.0
+31032,high,F,loyal,66,personal,business,775,32,27,5,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,4.0,2.0,4.0,19.0,63.33,4.0,4.0,2.0,4.0,2.0,4,4.0,4.0,28.0,70.0
+15208,high,M,loyal,65,personal,business,445,0,1,-1,worsened,neutral or dissatisfied,False,5.0,3.0,2.0,2.0,3.0,5.0,20.0,66.67,2.0,2.0,4.0,4.0,3.0,2,2.0,4.0,23.0,57.5
+126904,mid,M,loyal,68,personal,eco plus,2125,6,4,2,recovered,neutral or dissatisfied,False,4.0,5.0,5.0,5.0,4.0,5.0,28.0,93.33,1.0,3.0,3.0,4.0,4.0,4,3.0,2.0,24.0,60.0
+52955,high,M,loyal,66,personal,business,2306,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,3.0,5.0,20.0,66.67,1.0,1.0,3.0,3.0,3.0,1,3.0,3.0,18.0,45.0
+54034,high,F,loyal,68,personal,business,1416,60,20,40,recovered,neutral or dissatisfied,False,1.0,2.0,4.0,5.0,2.0,3.0,17.0,56.67,5.0,5.0,2.0,4.0,2.0,5,3.0,5.0,31.0,77.5
+126621,high,M,loyal,63,personal,business,602,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,4.0,5.0,3.0,4,1.0,5.0,30.0,75.0
+22714,mid,F,loyal,65,personal,eco plus,579,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,2.0,4.0,3.0,3.0,20.0,66.67,4.0,4.0,3.0,4.0,3.0,2,4.0,4.0,28.0,70.0
+14376,mid,F,loyal,68,personal,eco plus,1215,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,3.0,3.0,3.0,4,3.0,,24.0,60.0
+95562,mid,F,loyal,61,personal,eco plus,458,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,5.0,1.0,4.0,5.0,23.0,76.67,1.0,1.0,3.0,4.0,4.0,1,2.0,5.0,21.0,52.5
+129279,mid,M,loyal,66,personal,eco plus,2402,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,3.0,5.0,27.0,90.0,3.0,4.0,3.0,3.0,3.0,4,4.0,5.0,29.0,72.5
+91980,mid,F,loyal,68,personal,eco plus,2586,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,5.0,5.0,3.0,5.0,24.0,80.0,5.0,5.0,2.0,2.0,3.0,3,4.0,5.0,29.0,72.5
+32007,high,F,loyal,69,personal,business,216,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,3.0,2.0,5.0,19.0,63.33,3.0,3.0,3.0,5.0,2.0,3,5.0,,24.0,60.0
+90400,high,M,loyal,62,personal,business,270,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,3.0,3.0,4.0,22.0,73.33,3.0,3.0,5.0,5.0,3.0,3,1.0,5.0,28.0,70.0
+109783,high,F,loyal,70,personal,business,1052,16,24,-8,worsened,neutral or dissatisfied,False,5.0,3.0,2.0,1.0,3.0,4.0,18.0,60.0,1.0,1.0,5.0,5.0,3.0,1,3.0,5.0,24.0,60.0
+15351,high,F,loyal,66,personal,business,164,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,5.0,3.0,3.0,21.0,70.0,5.0,5.0,5.0,5.0,3.0,5,3.0,4.0,35.0,87.5
+54922,mid,F,loyal,66,personal,eco plus,862,23,9,14,recovered,neutral or dissatisfied,False,5.0,3.0,4.0,3.0,2.0,5.0,22.0,73.33,3.0,3.0,3.0,5.0,3.0,3,3.0,5.0,28.0,70.0
+105439,high,M,loyal,61,personal,business,998,5,13,-8,worsened,neutral or dissatisfied,False,1.0,2.0,5.0,3.0,2.0,3.0,16.0,53.33,3.0,3.0,5.0,1.0,2.0,4,3.0,3.0,24.0,60.0
+25152,mid,F,loyal,68,personal,eco plus,406,19,14,5,recovered,neutral or dissatisfied,False,4.0,4.0,3.0,2.0,4.0,4.0,21.0,70.0,2.0,2.0,4.0,5.0,4.0,2,5.0,4.0,28.0,70.0
+99940,mid,M,loyal,65,personal,eco plus,764,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,2.0,5.0,26.0,86.67,2.0,3.0,3.0,3.0,3.0,4,3.0,2.0,23.0,57.5
+67992,mid,F,loyal,64,personal,eco plus,1464,16,3,13,recovered,neutral or dissatisfied,False,5.0,1.0,3.0,1.0,1.0,3.0,14.0,46.67,1.0,1.0,3.0,5.0,1.0,1,4.0,4.0,20.0,50.0
+30209,mid,F,loyal,62,personal,eco plus,123,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,1.0,5.0,2.0,4.0,19.0,63.33,5.0,5.0,1.0,1.0,2.0,5,4.0,4.0,27.0,67.5
+13767,mid,F,loyal,70,personal,eco plus,401,34,14,20,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,3.0,5.0,20.0,66.67,1.0,1.0,3.0,4.0,3.0,1,4.0,5.0,22.0,55.0
+118961,mid,F,loyal,64,personal,eco plus,682,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,3.0,2.0,1.0,4.0,15.0,50.0,2.0,2.0,3.0,5.0,1.0,2,3.0,4.0,22.0,55.0
+16688,mid,M,loyal,67,personal,eco plus,488,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,3.0,3.0,3.0,3.0,17.0,56.67,4.0,3.0,2.0,3.0,3.0,3,3.0,,21.0,52.5
+9096,mid,F,loyal,63,personal,eco plus,212,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,2.0,1.0,1.0,1.0,9.0,30.0,1.0,1.0,4.0,3.0,1.0,1,4.0,2.0,17.0,42.5
+118003,high,F,loyal,67,personal,business,1037,16,11,5,recovered,neutral or dissatisfied,False,5.0,3.0,5.0,2.0,3.0,3.0,21.0,70.0,2.0,2.0,5.0,4.0,3.0,2,3.0,4.0,25.0,62.5
+18720,mid,M,loyal,62,personal,eco plus,201,31,16,15,recovered,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,5.0,5.0,2.0,1.0,1.0,2,2.0,4.0,22.0,55.0
+13169,mid,F,loyal,62,personal,eco plus,562,16,17,-1,worsened,neutral or dissatisfied,False,3.0,2.0,2.0,3.0,2.0,2.0,14.0,46.67,3.0,3.0,4.0,3.0,2.0,3,4.0,1.0,23.0,57.5
+47718,mid,M,loyal,67,personal,eco plus,1504,3,0,3,recovered,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,3.0,4.0,23.0,76.67,1.0,3.0,4.0,3.0,3.0,2,3.0,1.0,20.0,50.0
+87727,mid,M,loyal,61,personal,eco plus,606,0,2,-2,worsened,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,2.0,4.0,23.0,76.67,3.0,4.0,3.0,2.0,2.0,5,3.0,5.0,27.0,67.5
+26420,high,F,loyal,62,personal,business,925,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,3.0,2.0,5.0,18.0,60.0,3.0,3.0,3.0,5.0,2.0,3,4.0,4.0,27.0,67.5
+74060,mid,F,loyal,66,personal,eco plus,2527,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,4.0,1.0,4.0,3.0,17.0,56.67,4.0,3.0,3.0,3.0,4.0,3,4.0,3.0,27.0,67.5
+66630,high,F,loyal,61,personal,business,802,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,4.0,3.0,2.0,4.0,19.0,63.33,3.0,3.0,5.0,4.0,1.0,3,2.0,5.0,26.0,65.0
+31105,mid,F,loyal,65,personal,eco plus,1014,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,3.0,5.0,3.0,1.0,18.0,60.0,5.0,5.0,2.0,2.0,3.0,3,4.0,2.0,26.0,65.0
+68615,high,M,loyal,62,personal,business,175,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,2.0,1.0,3.0,4.0,18.0,60.0,1.0,1.0,4.0,4.0,3.0,1,4.0,4.0,22.0,55.0
+34038,mid,F,loyal,66,personal,eco plus,1576,0,23,-23,worsened,neutral or dissatisfied,False,4.0,2.0,2.0,2.0,2.0,5.0,17.0,56.67,2.0,2.0,5.0,4.0,2.0,2,3.0,5.0,25.0,62.5
+21147,mid,F,loyal,67,personal,eco plus,106,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,2.0,3.0,1.0,3.0,15.0,50.0,3.0,3.0,5.0,5.0,1.0,1,1.0,4.0,23.0,57.5
+40340,mid,M,loyal,62,personal,eco plus,347,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,3.0,3.0,18.0,60.0,5.0,4.0,5.0,3.0,3.0,4,2.0,4.0,30.0,75.0
+129307,high,F,loyal,67,personal,business,2475,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,3.0,3.0,3.0,2.0,16.0,53.33,3.0,3.0,3.0,4.0,3.0,3,2.0,4.0,25.0,62.5
+19960,mid,M,loyal,67,personal,eco plus,315,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,5.0,4.0,5.0,1.0,1.0,4,5.0,1.0,26.0,65.0
+63559,mid,F,loyal,64,personal,eco plus,1009,5,0,5,recovered,neutral or dissatisfied,False,5.0,3.0,3.0,1.0,3.0,3.0,18.0,60.0,1.0,1.0,4.0,4.0,3.0,1,3.0,4.0,21.0,52.5
+106787,mid,F,loyal,65,personal,eco plus,829,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,2.0,2.0,3.0,2.0,15.0,50.0,2.0,2.0,4.0,2.0,3.0,2,2.0,2.0,19.0,47.5
+53555,mid,M,loyal,62,personal,eco plus,1956,4,0,4,recovered,neutral or dissatisfied,False,4.0,1.0,3.0,3.0,3.0,3.0,17.0,56.67,1.0,3.0,1.0,3.0,3.0,2,3.0,1.0,17.0,42.5
+52472,mid,F,loyal,63,personal,eco plus,370,0,15,-15,worsened,satisfied,True,5.0,4.0,4.0,3.0,4.0,5.0,25.0,83.33,3.0,3.0,4.0,4.0,4.0,3,3.0,4.0,28.0,70.0
+124087,high,M,loyal,68,personal,business,529,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,3.0,3.0,2.0,3.0,14.0,46.67,3.0,3.0,3.0,1.0,2.0,3,4.0,5.0,24.0,60.0
+82408,mid,F,loyal,70,personal,eco plus,500,32,14,18,recovered,neutral or dissatisfied,False,3.0,1.0,1.0,1.0,1.0,4.0,11.0,36.67,1.0,1.0,1.0,1.0,1.0,2,1.0,5.0,13.0,32.5
+56841,mid,M,loyal,68,personal,eco plus,1605,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,2.0,1.0,9.0,30.0,5.0,5.0,4.0,2.0,2.0,5,4.0,5.0,32.0,80.0
+47579,high,F,loyal,69,personal,business,1242,13,23,-10,worsened,satisfied,True,5.0,1.0,3.0,4.0,,3.0,16.0,53.33,4.0,4.0,3.0,3.0,1.0,4,5.0,5.0,29.0,72.5
+12005,mid,M,loyal,63,personal,eco plus,643,0,0,0,same,satisfied,True,5.0,5.0,5.0,5.0,4.0,5.0,29.0,96.67,3.0,4.0,3.0,4.0,4.0,5,3.0,5.0,31.0,77.5
+77582,high,F,loyal,61,personal,business,731,4,4,0,same,neutral or dissatisfied,False,2.0,2.0,3.0,3.0,2.0,4.0,16.0,53.33,3.0,3.0,2.0,2.0,2.0,4,2.0,3.0,21.0,52.5
+74259,mid,M,loyal,69,personal,eco plus,1810,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,5.0,5.0,3.0,5.0,24.0,80.0,2.0,1.0,3.0,3.0,3.0,3,3.0,3.0,21.0,52.5
+18026,high,F,loyal,68,personal,business,488,5,0,5,recovered,neutral or dissatisfied,False,5.0,3.0,3.0,5.0,3.0,3.0,22.0,73.33,5.0,5.0,3.0,4.0,3.0,5,2.0,,27.0,67.5
+40039,mid,M,loyal,68,personal,eco plus,575,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,2.0,4.0,21.0,70.0,3.0,5.0,5.0,2.0,2.0,4,4.0,5.0,30.0,75.0
+26484,mid,F,loyal,70,personal,eco plus,842,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,5.0,2.0,3.0,19.0,63.33,5.0,5.0,3.0,5.0,2.0,5,2.0,5.0,32.0,80.0
+112195,mid,M,loyal,68,personal,eco plus,895,7,4,3,recovered,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,3.0,3.0,19.0,63.33,3.0,4.0,5.0,3.0,3.0,4,1.0,5.0,28.0,70.0
+109142,high,F,loyal,63,personal,business,483,0,7,-7,worsened,neutral or dissatisfied,False,3.0,3.0,4.0,5.0,2.0,4.0,21.0,70.0,5.0,5.0,3.0,2.0,3.0,5,3.0,2.0,28.0,70.0
+41889,high,M,loyal,67,personal,business,129,0,10,-10,worsened,neutral or dissatisfied,False,5.0,4.0,5.0,4.0,4.0,5.0,27.0,90.0,4.0,4.0,3.0,5.0,4.0,5,5.0,,30.0,75.0
+21174,high,F,loyal,61,personal,business,192,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,2.0,3.0,3.0,17.0,56.67,2.0,2.0,1.0,3.0,3.0,2,4.0,2.0,19.0,47.5
+58368,mid,M,loyal,62,personal,eco plus,599,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,4.0,2.0,4.0,19.0,63.33,4.0,3.0,1.0,2.0,2.0,3,3.0,3.0,21.0,52.5
+51457,mid,M,loyal,63,personal,eco plus,238,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,3.0,3.0,19.0,63.33,4.0,3.0,4.0,3.0,3.0,4,4.0,4.0,29.0,72.5
+5780,high,F,loyal,69,personal,business,177,0,23,-23,worsened,neutral or dissatisfied,False,4.0,4.0,4.0,1.0,4.0,4.0,21.0,70.0,1.0,1.0,4.0,4.0,4.0,1,3.0,3.0,21.0,52.5
+58352,high,M,loyal,64,personal,business,646,3,0,3,recovered,neutral or dissatisfied,False,2.0,1.0,1.0,4.0,1.0,1.0,10.0,33.33,4.0,4.0,3.0,3.0,1.0,4,1.0,3.0,23.0,57.5
+46776,mid,M,loyal,70,personal,eco plus,141,0,0,0,same,neutral or dissatisfied,False,2.0,1.0,4.0,4.0,3.0,4.0,18.0,60.0,2.0,4.0,2.0,3.0,3.0,3,3.0,3.0,23.0,57.5
+1419,mid,F,loyal,66,personal,eco plus,113,25,24,1,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,3.0,2.0,5.0,20.0,66.67,3.0,3.0,3.0,5.0,2.0,3,4.0,5.0,28.0,70.0
+88828,mid,M,loyal,66,personal,eco plus,404,9,2,7,recovered,satisfied,True,4.0,2.0,1.0,1.0,4.0,1.0,13.0,43.33,1.0,4.0,1.0,4.0,4.0,3,4.0,1.0,22.0,55.0
+47570,mid,F,loyal,67,personal,eco plus,558,25,6,19,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,2.0,3.0,19.0,63.33,4.0,4.0,5.0,4.0,2.0,4,4.0,4.0,31.0,77.5
+117327,mid,F,loyal,62,personal,eco plus,370,0,0,0,same,satisfied,True,2.0,5.0,4.0,3.0,5.0,2.0,21.0,70.0,3.0,3.0,3.0,3.0,5.0,3,3.0,1.0,24.0,60.0
+27217,high,F,loyal,68,personal,business,1024,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,4.0,20.0,66.67,2.0,2.0,4.0,4.0,3.0,2,1.0,5.0,23.0,57.5
+117528,high,F,loyal,62,personal,business,347,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,2.0,3.0,5.0,20.0,66.67,2.0,2.0,4.0,4.0,3.0,5,2.0,5.0,27.0,67.5
+39751,mid,F,loyal,62,personal,eco plus,1174,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,3.0,3.0,3.0,5.0,22.0,73.33,3.0,3.0,5.0,4.0,4.0,3,1.0,5.0,28.0,70.0
+105592,mid,F,loyal,64,personal,eco plus,577,1,0,1,recovered,neutral or dissatisfied,False,5.0,4.0,2.0,4.0,4.0,4.0,23.0,76.67,4.0,4.0,5.0,5.0,4.0,4,5.0,5.0,36.0,90.0
+80626,mid,F,loyal,69,personal,eco plus,236,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,2.0,3.0,4.0,4.0,21.0,70.0,3.0,3.0,2.0,4.0,4.0,2,4.0,4.0,26.0,65.0
+53545,mid,M,loyal,63,personal,eco plus,2419,0,23,-23,worsened,neutral or dissatisfied,False,3.0,4.0,1.0,1.0,1.0,3.0,13.0,43.33,4.0,4.0,3.0,3.0,1.0,3,3.0,4.0,25.0,62.5
+95550,mid,M,loyal,67,personal,eco plus,189,3,2,1,recovered,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,1.0,4.0,22.0,73.33,4.0,4.0,4.0,1.0,1.0,5,2.0,5.0,26.0,65.0
+107086,high,M,loyal,65,personal,business,562,8,0,8,recovered,neutral or dissatisfied,False,5.0,1.0,5.0,4.0,1.0,3.0,19.0,63.33,4.0,4.0,3.0,4.0,1.0,5,2.0,5.0,28.0,70.0
+31402,mid,F,loyal,70,personal,eco plus,1199,3,0,3,recovered,neutral or dissatisfied,False,1.0,2.0,5.0,5.0,1.0,3.0,17.0,56.67,5.0,5.0,1.0,4.0,2.0,5,3.0,4.0,29.0,72.5
+105412,mid,M,loyal,62,personal,eco plus,369,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,1.0,3.0,16.0,53.33,1.0,4.0,2.0,1.0,1.0,4,4.0,2.0,19.0,47.5
+109780,high,F,loyal,61,personal,business,1034,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,3.0,3.0,23.0,76.67,5.0,5.0,4.0,4.0,3.0,5,3.0,4.0,33.0,82.5
+76409,high,M,loyal,64,personal,business,405,4,0,4,recovered,neutral or dissatisfied,False,5.0,3.0,1.0,4.0,3.0,2.0,18.0,60.0,4.0,4.0,2.0,3.0,3.0,3,2.0,4.0,25.0,62.5
+63557,mid,M,loyal,70,personal,eco plus,1009,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,1.0,1.0,3.0,1.0,9.0,30.0,4.0,2.0,4.0,3.0,3.0,2,2.0,2.0,22.0,55.0
+68442,mid,M,loyal,63,personal,eco plus,1045,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,3.0,3.0,1.0,3.0,15.0,50.0,5.0,5.0,4.0,1.0,1.0,3,1.0,5.0,25.0,62.5
+84469,high,F,loyal,65,personal,business,1142,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,5.0,1.0,5.0,21.0,70.0,5.0,5.0,3.0,5.0,2.0,5,4.0,4.0,33.0,82.5
+47568,mid,F,loyal,66,personal,eco plus,599,7,19,-12,worsened,neutral or dissatisfied,False,4.0,3.0,5.0,1.0,3.0,2.0,18.0,60.0,1.0,1.0,1.0,1.0,3.0,2,1.0,3.0,13.0,32.5
+123331,mid,F,loyal,62,personal,eco plus,590,0,3,-3,worsened,neutral or dissatisfied,False,4.0,2.0,5.0,2.0,3.0,4.0,20.0,66.67,2.0,2.0,2.0,4.0,2.0,2,3.0,3.0,20.0,50.0
+116847,high,M,loyal,68,personal,business,370,12,10,2,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,2.0,2.0,2.0,15.0,50.0,2.0,2.0,1.0,2.0,2.0,2,1.0,4.0,16.0,40.0
+16223,high,M,loyal,61,personal,business,266,0,0,0,same,satisfied,True,4.0,,2.0,1.0,4.0,5.0,16.0,53.33,1.0,1.0,3.0,4.0,,1,4.0,,14.0,35.0
+94110,high,F,loyal,67,personal,business,341,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,3.0,2.0,4.0,17.0,56.67,3.0,3.0,3.0,5.0,2.0,3,3.0,5.0,27.0,67.5
+39102,mid,F,loyal,68,personal,eco plus,328,4,3,1,recovered,neutral or dissatisfied,False,4.0,2.0,1.0,4.0,2.0,3.0,16.0,53.33,4.0,4.0,3.0,4.0,2.0,4,3.0,3.0,27.0,67.5
+90402,high,M,loyal,70,personal,business,366,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,1.0,3.0,2.0,5.0,18.0,60.0,3.0,3.0,1.0,1.0,2.0,3,1.0,5.0,19.0,47.5
+16789,mid,F,loyal,62,personal,eco plus,569,1,0,1,recovered,neutral or dissatisfied,False,3.0,2.0,2.0,4.0,2.0,5.0,18.0,60.0,4.0,4.0,3.0,3.0,2.0,4,3.0,5.0,28.0,70.0
+62678,mid,F,loyal,69,personal,eco plus,1846,0,0,0,same,neutral or dissatisfied,False,2.0,1.0,5.0,2.0,2.0,5.0,17.0,56.67,2.0,2.0,4.0,4.0,1.0,2,4.0,3.0,22.0,55.0
+107651,high,F,loyal,69,personal,business,405,2,0,2,recovered,neutral or dissatisfied,False,3.0,3.0,4.0,3.0,3.0,2.0,18.0,60.0,3.0,3.0,4.0,3.0,3.0,3,4.0,4.0,27.0,67.5
+90393,high,M,loyal,65,personal,business,250,0,0,0,same,neutral or dissatisfied,False,4.0,,2.0,3.0,2.0,5.0,16.0,53.33,3.0,3.0,5.0,4.0,,3,3.0,4.0,25.0,62.5
+99376,high,F,loyal,69,personal,business,337,0,17,-17,worsened,neutral or dissatisfied,False,5.0,2.0,2.0,2.0,2.0,5.0,18.0,60.0,2.0,2.0,5.0,5.0,2.0,2,3.0,5.0,26.0,65.0
+26553,mid,F,loyal,64,personal,eco plus,990,4,0,4,recovered,neutral or dissatisfied,False,5.0,2.0,4.0,1.0,2.0,5.0,19.0,63.33,1.0,1.0,2.0,2.0,2.0,1,4.0,3.0,16.0,40.0
+52152,high,M,loyal,66,personal,business,451,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,2.0,1.0,1.0,3.0,15.0,50.0,1.0,1.0,2.0,3.0,4.0,1,1.0,5.0,18.0,45.0
+57876,high,M,loyal,65,personal,business,305,18,7,11,recovered,neutral or dissatisfied,False,5.0,4.0,5.0,3.0,4.0,5.0,26.0,86.67,3.0,3.0,2.0,1.0,4.0,1,2.0,5.0,21.0,52.5
+128059,mid,F,loyal,61,personal,eco plus,735,0,9,-9,worsened,neutral or dissatisfied,False,3.0,2.0,4.0,1.0,2.0,4.0,16.0,53.33,1.0,1.0,2.0,3.0,2.0,5,4.0,4.0,22.0,55.0
+64136,high,M,loyal,68,personal,business,989,0,10,-10,worsened,neutral or dissatisfied,False,4.0,,4.0,4.0,1.0,4.0,17.0,56.67,4.0,4.0,5.0,4.0,,4,5.0,5.0,31.0,77.5
+16804,high,M,loyal,65,personal,business,645,0,0,0,same,satisfied,True,4.0,,3.0,3.0,,2.0,12.0,40.0,3.0,3.0,1.0,4.0,,3,3.0,2.0,19.0,47.5
+121206,mid,F,loyal,61,personal,eco plus,2402,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,1.0,1.0,4.0,15.0,50.0,1.0,4.0,4.0,4.0,2.0,4,4.0,2.0,25.0,62.5
+60739,mid,M,loyal,69,personal,eco plus,1605,0,0,0,same,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,3.0,2.0,16.0,53.33,4.0,3.0,2.0,2.0,2.0,2,4.0,3.0,22.0,55.0
+90390,high,F,loyal,70,personal,business,240,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,4.0,22.0,73.33,4.0,4.0,4.0,5.0,3.0,4,1.0,4.0,29.0,72.5
+43425,mid,M,loyal,64,personal,eco plus,347,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,1.0,5.0,23.0,76.67,3.0,5.0,5.0,1.0,1.0,4,3.0,4.0,26.0,65.0
+11491,mid,M,loyal,67,personal,eco plus,482,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,2.0,2.0,12.0,40.0,2.0,5.0,2.0,2.0,2.0,3,3.0,5.0,24.0,60.0
+128056,mid,M,loyal,68,personal,eco plus,735,0,4,-4,worsened,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,3.0,1.0,10.0,33.33,4.0,4.0,5.0,3.0,3.0,5,4.0,4.0,32.0,80.0
+34840,mid,M,loyal,64,personal,eco plus,301,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,5.0,24.0,80.0,3.0,4.0,4.0,2.0,2.0,3,3.0,3.0,24.0,60.0
+11682,high,F,loyal,68,personal,business,175,0,1,-1,worsened,neutral or dissatisfied,False,4.0,4.0,4.0,3.0,4.0,3.0,22.0,73.33,3.0,3.0,4.0,1.0,4.0,5,5.0,3.0,28.0,70.0
+57240,high,F,loyal,68,personal,business,804,0,0,0,same,satisfied,True,3.0,4.0,1.0,4.0,4.0,4.0,20.0,66.67,4.0,4.0,1.0,3.0,4.0,4,3.0,2.0,25.0,62.5
+2350,mid,F,loyal,62,personal,eco plus,925,17,19,-2,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,3.0,19.0,63.33,2.0,2.0,5.0,5.0,3.0,2,2.0,4.0,25.0,62.5
+74337,high,M,loyal,62,personal,business,1188,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,4.0,4.0,21.0,70.0,3.0,3.0,2.0,2.0,4.0,1,4.0,4.0,23.0,57.5
+102609,mid,F,loyal,66,personal,eco plus,386,0,0,0,same,satisfied,True,4.0,,2.0,1.0,,3.0,10.0,33.33,1.0,1.0,4.0,4.0,,1,2.0,5.0,18.0,45.0
+28498,high,F,loyal,63,personal,business,2677,43,0,43,recovered,neutral or dissatisfied,False,2.0,1.0,4.0,2.0,1.0,4.0,14.0,46.67,2.0,2.0,3.0,1.0,1.0,2,1.0,5.0,17.0,42.5
+125959,mid,F,loyal,69,personal,eco plus,992,0,3,-3,worsened,neutral or dissatisfied,False,5.0,2.0,4.0,4.0,2.0,3.0,20.0,66.67,4.0,4.0,3.0,4.0,2.0,4,2.0,5.0,28.0,70.0
+59520,high,F,loyal,64,personal,business,965,11,4,7,recovered,neutral or dissatisfied,False,5.0,3.0,5.0,1.0,3.0,5.0,22.0,73.33,1.0,1.0,5.0,5.0,3.0,1,3.0,5.0,24.0,60.0
+12773,mid,M,loyal,70,personal,eco plus,689,12,2,10,recovered,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,3.0,3.0,18.0,60.0,3.0,4.0,3.0,3.0,3.0,5,2.0,5.0,28.0,70.0
+7316,mid,F,loyal,69,personal,eco plus,139,0,0,0,same,satisfied,True,4.0,4.0,3.0,2.0,4.0,3.0,20.0,66.67,2.0,2.0,5.0,5.0,4.0,2,1.0,5.0,26.0,65.0
+37803,mid,F,loyal,68,personal,eco plus,950,28,22,6,recovered,neutral or dissatisfied,False,1.0,2.0,3.0,3.0,2.0,3.0,14.0,46.67,3.0,3.0,2.0,1.0,2.0,5,1.0,1.0,18.0,45.0
+114122,high,M,loyal,62,personal,business,862,1,6,-5,worsened,neutral or dissatisfied,False,4.0,3.0,1.0,5.0,3.0,4.0,20.0,66.67,5.0,5.0,2.0,4.0,3.0,5,3.0,4.0,31.0,77.5
+71468,mid,M,loyal,65,personal,eco plus,867,0,0,0,same,satisfied,True,1.0,3.0,1.0,1.0,4.0,1.0,11.0,36.67,4.0,4.0,4.0,4.0,4.0,5,1.0,5.0,31.0,77.5
+53660,high,M,loyal,69,personal,business,1208,0,0,0,same,satisfied,True,4.0,4.0,2.0,1.0,4.0,1.0,16.0,53.33,1.0,1.0,5.0,2.0,4.0,1,4.0,4.0,22.0,55.0
+51371,mid,M,loyal,70,personal,eco plus,110,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,3.0,3.0,3.0,3.0,16.0,53.33,1.0,4.0,2.0,,,3,4.0,1.0,15.0,37.5
+37807,mid,F,loyal,61,personal,eco plus,1069,0,0,0,same,satisfied,True,4.0,5.0,2.0,5.0,4.0,4.0,24.0,80.0,5.0,5.0,5.0,4.0,5.0,5,2.0,5.0,36.0,90.0
+77040,mid,F,loyal,68,personal,eco plus,368,0,22,-22,worsened,neutral or dissatisfied,False,3.0,3.0,3.0,1.0,3.0,1.0,14.0,46.67,1.0,1.0,1.0,4.0,3.0,1,4.0,3.0,18.0,45.0
+21009,mid,M,loyal,68,personal,eco plus,689,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,3.0,2.0,14.0,46.67,4.0,5.0,4.0,3.0,3.0,2,3.0,5.0,29.0,72.5
+75501,mid,F,loyal,61,personal,eco plus,2342,0,2,-2,worsened,neutral or dissatisfied,False,1.0,2.0,5.0,2.0,2.0,5.0,17.0,56.67,2.0,2.0,1.0,5.0,2.0,2,4.0,5.0,23.0,57.5
+78399,mid,M,loyal,68,personal,eco plus,980,0,29,-29,worsened,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,2.0,1.0,9.0,30.0,3.0,1.0,2.0,2.0,2.0,3,1.0,5.0,19.0,47.5
+84289,mid,F,loyal,68,personal,eco plus,334,0,24,-24,worsened,neutral or dissatisfied,False,4.0,4.0,3.0,4.0,4.0,3.0,22.0,73.33,4.0,4.0,4.0,5.0,4.0,4,4.0,4.0,33.0,82.5
+75105,high,F,loyal,65,personal,business,1726,0,0,0,same,satisfied,True,5.0,4.0,3.0,3.0,4.0,4.0,23.0,76.67,3.0,3.0,5.0,4.0,4.0,3,1.0,5.0,28.0,70.0
+77860,mid,M,loyal,62,personal,eco plus,696,0,14,-14,worsened,neutral or dissatisfied,False,1.0,1.0,1.0,1.0,2.0,1.0,7.0,23.33,3.0,2.0,3.0,3.0,3.0,1,2.0,2.0,19.0,47.5
+126443,mid,F,loyal,64,personal,eco plus,650,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,3.0,4.0,1.0,2.0,14.0,46.67,4.0,4.0,3.0,4.0,1.0,4,3.0,2.0,25.0,62.5
+81912,mid,M,loyal,67,personal,eco plus,680,6,4,2,recovered,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,3.0,3.0,16.0,53.33,3.0,5.0,2.0,3.0,3.0,3,4.0,4.0,27.0,67.5
+38312,mid,F,loyal,63,personal,eco plus,2342,15,0,15,recovered,neutral or dissatisfied,False,3.0,3.0,4.0,2.0,3.0,2.0,17.0,56.67,2.0,2.0,1.0,2.0,3.0,2,3.0,4.0,19.0,47.5
+3112,mid,M,loyal,68,personal,eco plus,594,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,3.0,1.0,11.0,36.67,2.0,1.0,3.0,3.0,3.0,1,2.0,4.0,19.0,47.5
+21581,mid,M,loyal,70,personal,eco plus,331,22,12,10,recovered,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,2.0,5.0,27.0,90.0,3.0,4.0,3.0,2.0,2.0,5,4.0,5.0,28.0,70.0
+34463,mid,M,loyal,63,personal,eco plus,228,0,0,0,same,neutral or dissatisfied,False,2.0,5.0,3.0,3.0,2.0,3.0,18.0,60.0,3.0,3.0,4.0,2.0,2.0,3,2.0,2.0,21.0,52.5
+12968,mid,M,loyal,66,personal,eco plus,456,0,5,-5,worsened,neutral or dissatisfied,False,5.0,1.0,5.0,5.0,3.0,5.0,24.0,80.0,5.0,2.0,3.0,3.0,3.0,5,5.0,4.0,30.0,75.0
+34243,mid,M,loyal,63,personal,eco plus,1189,16,6,10,recovered,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,1.0,3.0,17.0,56.67,3.0,5.0,3.0,2.0,2.0,5,3.0,4.0,27.0,67.5
+44883,mid,M,loyal,62,personal,eco plus,315,11,6,5,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,2.0,4.0,20.0,66.67,5.0,3.0,5.0,2.0,2.0,4,5.0,4.0,30.0,75.0
+117652,mid,F,loyal,70,personal,eco plus,1020,30,12,18,recovered,neutral or dissatisfied,False,1.0,1.0,5.0,4.0,2.0,2.0,15.0,50.0,4.0,4.0,2.0,5.0,1.0,2,4.0,4.0,26.0,65.0
+14931,high,F,loyal,64,personal,business,554,0,8,-8,worsened,neutral or dissatisfied,False,5.0,4.0,2.0,5.0,4.0,5.0,25.0,83.33,5.0,5.0,5.0,5.0,4.0,5,1.0,5.0,35.0,87.5
+65287,mid,F,loyal,68,personal,eco plus,224,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,3.0,3.0,4.0,20.0,66.67,3.0,3.0,3.0,4.0,3.0,3,3.0,4.0,26.0,65.0
+91594,high,F,loyal,63,personal,business,1312,5,0,5,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,4.0,2.0,4.0,19.0,63.33,4.0,4.0,3.0,4.0,2.0,4,1.0,4.0,26.0,65.0
+91688,high,F,loyal,68,personal,business,626,22,23,-1,worsened,neutral or dissatisfied,False,4.0,4.0,5.0,1.0,4.0,4.0,22.0,73.33,1.0,1.0,5.0,5.0,4.0,1,4.0,5.0,26.0,65.0
+39794,high,F,loyal,66,personal,business,221,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,4.0,3.0,26.0,86.67,5.0,5.0,3.0,4.0,4.0,5,3.0,,29.0,72.5
+109120,mid,M,loyal,65,personal,eco plus,849,1,0,1,recovered,neutral or dissatisfied,False,1.0,2.0,1.0,1.0,2.0,1.0,8.0,26.67,4.0,5.0,3.0,2.0,2.0,5,1.0,4.0,26.0,65.0
+25871,mid,F,loyal,67,personal,eco plus,692,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,3.0,5.0,1.0,5.0,19.0,63.33,5.0,5.0,4.0,4.0,1.0,5,2.0,5.0,31.0,77.5
+27882,mid,F,loyal,68,personal,eco plus,1448,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,2.0,3.0,1.0,18.0,60.0,2.0,2.0,3.0,4.0,3.0,2,3.0,2.0,21.0,52.5
+119350,mid,F,loyal,70,personal,eco plus,214,0,17,-17,worsened,neutral or dissatisfied,False,5.0,3.0,4.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,3.0,5.0,3.0,4,3.0,,26.0,65.0
+127772,mid,M,loyal,64,personal,eco plus,255,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,5.0,5.0,2.0,5.0,25.0,83.33,4.0,5.0,5.0,2.0,2.0,5,4.0,5.0,32.0,80.0
+26899,high,M,loyal,65,personal,business,1874,0,11,-11,worsened,neutral or dissatisfied,False,2.0,4.0,2.0,3.0,4.0,3.0,18.0,60.0,3.0,3.0,1.0,3.0,4.0,3,3.0,4.0,24.0,60.0
+67991,mid,M,loyal,70,personal,eco plus,1205,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,1.0,1.0,9.0,30.0,2.0,3.0,1.0,1.0,1.0,3,4.0,4.0,19.0,47.5
+43139,mid,M,loyal,67,personal,eco plus,192,28,21,7,recovered,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,1.0,1.0,8.0,26.67,4.0,4.0,5.0,,,5,3.0,4.0,25.0,62.5
+63479,mid,F,loyal,67,personal,eco plus,447,0,22,-22,worsened,neutral or dissatisfied,False,2.0,2.0,2.0,4.0,2.0,3.0,15.0,50.0,4.0,4.0,3.0,5.0,2.0,4,3.0,4.0,29.0,72.5
+47261,high,M,loyal,66,personal,business,588,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,3.0,2.0,24.0,80.0,5.0,5.0,1.0,2.0,4.0,2,4.0,5.0,28.0,70.0
+27282,high,F,loyal,61,personal,business,679,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,2.0,3.0,2.0,18.0,60.0,2.0,2.0,1.0,4.0,3.0,2,3.0,4.0,21.0,52.5
+54116,high,M,loyal,65,personal,business,1400,41,27,14,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,1.0,3.0,2.0,12.0,40.0,1.0,1.0,4.0,1.0,2.0,1,3.0,4.0,17.0,42.5
+12084,mid,F,loyal,62,personal,eco plus,351,1,5,-4,worsened,neutral or dissatisfied,False,4.0,3.0,5.0,1.0,3.0,4.0,20.0,66.67,1.0,1.0,3.0,5.0,3.0,3,3.0,5.0,24.0,60.0
+123336,mid,M,loyal,63,personal,eco plus,650,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,5.0,2.0,5.0,25.0,83.33,2.0,2.0,4.0,3.0,3.0,2,2.0,5.0,23.0,57.5
+17332,mid,F,loyal,65,personal,eco plus,438,7,30,-23,worsened,neutral or dissatisfied,False,1.0,2.0,4.0,2.0,2.0,4.0,15.0,50.0,2.0,2.0,4.0,3.0,2.0,2,1.0,4.0,20.0,50.0
+24141,high,F,loyal,61,personal,business,147,0,0,0,same,satisfied,True,3.0,4.0,2.0,4.0,4.0,2.0,19.0,63.33,4.0,4.0,2.0,5.0,4.0,4,4.0,5.0,32.0,80.0
+29514,mid,F,loyal,68,personal,eco plus,1107,0,0,0,same,neutral or dissatisfied,False,4.0,,3.0,5.0,1.0,3.0,16.0,53.33,5.0,5.0,4.0,4.0,,5,4.0,,27.0,67.5
+28032,mid,M,loyal,70,personal,eco plus,763,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,1.0,1.0,3.0,1.0,9.0,30.0,4.0,5.0,4.0,3.0,3.0,4,5.0,5.0,33.0,82.5
+9526,high,M,loyal,68,personal,business,292,0,0,0,same,neutral or dissatisfied,False,5.0,5.0,5.0,4.0,4.0,3.0,26.0,86.67,4.0,4.0,5.0,4.0,5.0,4,4.0,4.0,34.0,85.0
+53542,mid,F,loyal,67,personal,eco plus,2442,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,5.0,3.0,3.0,22.0,73.33,4.0,3.0,3.0,3.0,3.0,5,3.0,5.0,29.0,72.5
+87947,high,F,loyal,69,personal,business,442,9,9,0,same,neutral or dissatisfied,False,3.0,4.0,5.0,2.0,4.0,4.0,22.0,73.33,2.0,2.0,2.0,4.0,4.0,2,4.0,2.0,22.0,55.0
+70766,high,F,loyal,66,personal,business,328,0,0,0,same,neutral or dissatisfied,False,4.0,5.0,5.0,2.0,2.0,3.0,21.0,70.0,2.0,2.0,4.0,5.0,5.0,3,3.0,4.0,28.0,70.0
+128565,mid,M,loyal,67,personal,eco plus,370,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,3.0,4.0,23.0,76.67,4.0,4.0,3.0,3.0,3.0,3,5.0,,25.0,62.5
+117651,mid,F,loyal,70,personal,eco plus,347,21,12,9,recovered,neutral or dissatisfied,False,5.0,3.0,4.0,1.0,3.0,3.0,19.0,63.33,1.0,1.0,3.0,5.0,3.0,1,3.0,5.0,22.0,55.0
+48017,mid,F,loyal,68,personal,eco plus,748,0,0,0,same,satisfied,True,4.0,5.0,3.0,3.0,5.0,5.0,25.0,83.33,3.0,3.0,4.0,5.0,5.0,3,3.0,4.0,30.0,75.0
+114034,high,M,loyal,63,personal,business,511,4,3,1,recovered,satisfied,True,5.0,,3.0,5.0,,5.0,18.0,60.0,5.0,5.0,4.0,5.0,,5,4.0,5.0,33.0,82.5
+12868,mid,M,loyal,69,personal,eco plus,817,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,1.0,1.0,2.0,1.0,8.0,26.67,1.0,4.0,4.0,1.0,1.0,4,3.0,4.0,22.0,55.0
+33402,high,F,loyal,61,personal,business,2556,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,1.0,1.0,2.0,1.0,11.0,36.67,1.0,1.0,2.0,2.0,2.0,1,3.0,2.0,14.0,35.0
+66431,mid,M,loyal,69,personal,eco plus,1562,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,4.0,4.0,1.0,4.0,19.0,63.33,1.0,2.0,4.0,1.0,1.0,2,2.0,3.0,16.0,40.0
+7932,mid,F,loyal,61,personal,eco plus,864,0,10,-10,worsened,neutral or dissatisfied,False,4.0,2.0,2.0,1.0,2.0,5.0,16.0,53.33,1.0,1.0,4.0,4.0,2.0,1,5.0,4.0,22.0,55.0
+98223,mid,F,loyal,61,personal,eco plus,842,13,17,-4,worsened,satisfied,True,5.0,,5.0,5.0,,5.0,20.0,66.67,5.0,5.0,3.0,5.0,,5,3.0,5.0,31.0,77.5
+18181,high,M,loyal,61,personal,business,228,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,4.0,3.0,4.0,20.0,66.67,4.0,4.0,4.0,5.0,3.0,4,3.0,5.0,32.0,80.0
+43423,mid,F,loyal,63,personal,eco plus,402,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,5.0,4.0,1.0,3.0,18.0,60.0,4.0,4.0,5.0,4.0,1.0,4,3.0,5.0,30.0,75.0
+6472,mid,M,loyal,62,personal,eco plus,213,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,2.0,3.0,19.0,63.33,2.0,3.0,2.0,2.0,2.0,3,4.0,4.0,22.0,55.0
+44421,mid,F,loyal,70,personal,eco plus,323,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,4.0,3.0,4.0,3.0,20.0,66.67,3.0,3.0,2.0,5.0,4.0,4,3.0,4.0,28.0,70.0
+91984,mid,M,loyal,61,personal,eco plus,2475,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,4.0,5.0,28.0,93.33,2.0,1.0,4.0,3.0,3.0,5,4.0,4.0,26.0,65.0
+11511,mid,F,loyal,69,personal,eco plus,429,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,5.0,3.0,3.0,20.0,66.67,5.0,5.0,3.0,2.0,3.0,5,4.0,3.0,30.0,75.0
+124445,high,F,loyal,61,personal,business,980,0,0,0,same,neutral or dissatisfied,False,2.0,1.0,1.0,1.0,2.0,5.0,12.0,40.0,1.0,1.0,3.0,3.0,1.0,3,1.0,3.0,16.0,40.0
+106241,mid,M,loyal,70,personal,eco plus,471,0,0,0,same,satisfied,True,4.0,1.0,4.0,4.0,5.0,4.0,22.0,73.33,4.0,4.0,1.0,5.0,5.0,3,4.0,3.0,29.0,72.5
+119364,high,F,loyal,62,personal,business,399,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,1.0,2.0,3.0,14.0,46.67,1.0,1.0,3.0,5.0,2.0,1,3.0,4.0,20.0,50.0
+114524,high,F,loyal,67,personal,business,390,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,3.0,21.0,70.0,4.0,4.0,2.0,3.0,3.0,4,3.0,4.0,27.0,67.5
+19394,mid,F,loyal,64,personal,eco plus,844,17,10,7,recovered,neutral or dissatisfied,False,4.0,3.0,3.0,4.0,3.0,5.0,22.0,73.33,4.0,4.0,3.0,5.0,3.0,4,3.0,4.0,30.0,75.0
+2347,mid,F,loyal,68,personal,eco plus,672,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,5.0,3.0,1.0,18.0,60.0,5.0,5.0,1.0,3.0,3.0,5,4.0,1.0,27.0,67.5
+36747,high,M,loyal,66,personal,business,2588,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,1.0,5.0,1.0,4.0,19.0,63.33,4.0,4.0,4.0,4.0,1.0,4,3.0,4.0,28.0,70.0
+9262,mid,M,loyal,66,personal,eco plus,100,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,3.0,3.0,3.0,3.0,17.0,56.67,4.0,1.0,2.0,3.0,3.0,2,1.0,1.0,17.0,42.5
+8448,high,M,loyal,70,personal,business,1379,0,14,-14,worsened,neutral or dissatisfied,False,4.0,4.0,3.0,5.0,4.0,3.0,23.0,76.67,5.0,5.0,5.0,3.0,4.0,5,4.0,5.0,36.0,90.0
+63141,high,M,loyal,70,personal,business,337,34,21,13,recovered,neutral or dissatisfied,False,4.0,2.0,5.0,1.0,2.0,4.0,18.0,60.0,1.0,1.0,3.0,5.0,2.0,3,2.0,4.0,21.0,52.5
+51447,mid,M,loyal,69,personal,eco plus,86,1,3,-2,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,4.0,22.0,73.33,2.0,3.0,2.0,3.0,3.0,4,3.0,2.0,22.0,55.0
+42657,mid,F,loyal,61,personal,eco plus,546,24,13,11,recovered,neutral or dissatisfied,False,3.0,4.0,4.0,2.0,1.0,1.0,15.0,50.0,2.0,2.0,1.0,1.0,4.0,2,3.0,5.0,20.0,50.0
+99609,mid,M,loyal,69,personal,eco plus,930,9,11,-2,worsened,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,1.0,2.0,12.0,40.0,2.0,4.0,3.0,1.0,1.0,3,4.0,2.0,20.0,50.0
+126439,mid,M,loyal,65,personal,eco plus,468,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,2.0,1.0,2.0,14.0,46.67,4.0,4.0,2.0,4.0,4.0,3,3.0,1.0,25.0,62.5
+84312,mid,M,loyal,62,personal,eco plus,235,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,2.0,1.0,9.0,30.0,5.0,5.0,3.0,2.0,2.0,4,5.0,4.0,30.0,75.0
+23017,mid,M,loyal,61,personal,eco plus,528,0,0,0,same,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,3.0,4.0,24.0,80.0,3.0,4.0,4.0,3.0,3.0,4,1.0,4.0,26.0,65.0
+60568,high,F,loyal,62,personal,business,1290,0,0,0,same,satisfied,True,3.0,3.0,5.0,3.0,4.0,2.0,20.0,66.67,3.0,3.0,3.0,1.0,3.0,3,2.0,1.0,19.0,47.5
+2007,mid,M,loyal,66,personal,eco plus,351,0,1,-1,worsened,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,2.0,1.0,10.0,33.33,4.0,4.0,5.0,2.0,2.0,4,2.0,5.0,28.0,70.0
+16411,mid,M,loyal,64,personal,eco plus,533,0,0,0,same,satisfied,True,3.0,4.0,3.0,3.0,5.0,3.0,21.0,70.0,3.0,3.0,4.0,5.0,5.0,3,2.0,2.0,27.0,67.5
+51437,mid,M,loyal,69,personal,eco plus,304,1,0,1,recovered,neutral or dissatisfied,False,2.0,5.0,3.0,3.0,2.0,3.0,18.0,60.0,3.0,4.0,3.0,1.0,1.0,4,3.0,4.0,23.0,57.5
+60990,mid,F,loyal,68,personal,eco plus,888,4,0,4,recovered,neutral or dissatisfied,False,5.0,1.0,4.0,1.0,1.0,5.0,17.0,56.67,1.0,1.0,4.0,4.0,1.0,1,3.0,5.0,20.0,50.0
+33475,mid,M,loyal,65,personal,eco plus,2917,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,4.0,4.0,4.0,3.0,21.0,70.0,4.0,5.0,3.0,3.0,4.0,3,4.0,5.0,31.0,77.5
+123953,mid,M,loyal,62,personal,eco plus,573,5,1,4,recovered,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,1.0,1.0,8.0,26.67,3.0,4.0,3.0,1.0,1.0,4,3.0,4.0,23.0,57.5
+60872,mid,F,loyal,70,personal,eco plus,1491,0,6,-6,worsened,satisfied,True,4.0,4.0,3.0,5.0,4.0,3.0,23.0,76.67,5.0,5.0,5.0,4.0,4.0,5,3.0,4.0,35.0,87.5
+99295,mid,M,loyal,63,personal,eco plus,935,0,19,-19,worsened,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,2.0,1.0,10.0,33.33,2.0,3.0,1.0,2.0,2.0,4,4.0,1.0,19.0,47.5
+27883,mid,F,loyal,70,personal,eco plus,1448,0,5,-5,worsened,neutral or dissatisfied,False,4.0,4.0,1.0,4.0,4.0,4.0,21.0,70.0,4.0,4.0,5.0,5.0,4.0,4,2.0,3.0,31.0,77.5
+12978,high,F,loyal,64,personal,business,374,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,3.0,4.0,24.0,80.0,5.0,5.0,5.0,5.0,3.0,5,3.0,,31.0,77.5
+89828,mid,F,loyal,61,personal,eco plus,950,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,5.0,22.0,73.33,3.0,3.0,3.0,5.0,3.0,3,2.0,,22.0,55.0
+122440,mid,F,loyal,64,personal,eco plus,1916,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,5.0,5.0,4.0,5.0,27.0,90.0,5.0,5.0,4.0,5.0,4.0,5,2.0,4.0,34.0,85.0
+87726,mid,F,loyal,68,personal,eco plus,591,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,4.0,3.0,4.0,3.0,21.0,70.0,3.0,3.0,2.0,4.0,4.0,3,4.0,3.0,26.0,65.0
+72746,high,F,loyal,69,personal,business,806,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,4.0,2.0,2.0,3.0,16.0,53.33,2.0,2.0,1.0,3.0,2.0,2,2.0,1.0,15.0,37.5
+105200,mid,F,loyal,67,personal,eco plus,220,5,0,5,recovered,neutral or dissatisfied,False,2.0,,1.0,5.0,2.0,5.0,15.0,50.0,5.0,5.0,5.0,1.0,,5,1.0,4.0,26.0,65.0
+72351,high,F,loyal,66,personal,business,1121,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,1.0,4.0,2.0,3.0,14.0,46.67,4.0,4.0,2.0,2.0,2.0,4,3.0,1.0,22.0,55.0
+98850,high,M,loyal,64,personal,business,1751,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,1.0,1.0,1.0,2.0,11.0,36.67,1.0,1.0,4.0,3.0,2.0,1,3.0,3.0,18.0,45.0
+26959,high,F,loyal,61,personal,business,867,0,5,-5,worsened,satisfied,True,4.0,4.0,2.0,4.0,4.0,3.0,21.0,70.0,4.0,4.0,3.0,4.0,4.0,5,3.0,3.0,30.0,75.0
+35610,mid,M,loyal,67,personal,eco plus,1097,0,1,-1,worsened,neutral or dissatisfied,False,3.0,5.0,5.0,5.0,1.0,5.0,24.0,80.0,4.0,5.0,5.0,1.0,1.0,5,4.0,4.0,29.0,72.5
+122335,mid,F,loyal,62,personal,eco plus,541,0,6,-6,worsened,neutral or dissatisfied,False,4.0,2.0,3.0,4.0,2.0,4.0,19.0,63.33,4.0,4.0,5.0,4.0,2.0,2,1.0,5.0,27.0,67.5
+4404,mid,M,loyal,65,personal,eco plus,618,0,0,0,same,satisfied,True,5.0,2.0,5.0,5.0,4.0,5.0,26.0,86.67,4.0,4.0,5.0,4.0,4.0,5,3.0,4.0,33.0,82.5
+124148,high,M,loyal,61,personal,business,2133,24,13,11,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,3.0,1.0,16.0,53.33,1.0,1.0,2.0,4.0,3.0,1,3.0,3.0,18.0,45.0
+60360,high,M,loyal,68,personal,business,1452,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,2.0,2.0,4.0,19.0,63.33,2.0,2.0,5.0,3.0,2.0,2,5.0,4.0,25.0,62.5
+51840,mid,F,loyal,67,personal,eco plus,493,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,4.0,23.0,76.67,5.0,5.0,4.0,4.0,2.0,2,2.0,4.0,28.0,70.0
+8388,mid,F,loyal,68,personal,eco plus,701,14,26,-12,worsened,neutral or dissatisfied,False,1.0,3.0,2.0,5.0,3.0,5.0,19.0,63.33,5.0,5.0,2.0,2.0,3.0,1,1.0,4.0,23.0,57.5
+75108,high,M,loyal,66,personal,business,1723,0,14,-14,worsened,neutral or dissatisfied,False,4.0,1.0,3.0,4.0,1.0,3.0,16.0,53.33,4.0,4.0,3.0,2.0,1.0,4,3.0,4.0,25.0,62.5
+87611,high,F,loyal,64,personal,business,606,11,12,-1,worsened,neutral or dissatisfied,False,3.0,3.0,3.0,2.0,3.0,4.0,18.0,60.0,2.0,2.0,1.0,3.0,3.0,2,3.0,2.0,18.0,45.0
+124512,mid,M,loyal,67,personal,eco plus,930,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,4.0,4.0,22.0,73.33,3.0,3.0,1.0,5.0,5.0,3,4.0,2.0,26.0,65.0
+30207,mid,M,loyal,62,personal,eco plus,548,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,4.0,1.0,12.0,40.0,1.0,4.0,1.0,4.0,4.0,3,4.0,1.0,22.0,55.0
+2685,mid,F,loyal,64,personal,eco plus,597,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,3.0,3.0,5.0,24.0,80.0,3.0,3.0,3.0,3.0,3.0,3,4.0,4.0,26.0,65.0
+78273,high,F,loyal,67,personal,business,1598,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,1.0,2.0,5.0,17.0,56.67,1.0,1.0,5.0,3.0,2.0,1,4.0,5.0,22.0,55.0
+125057,high,F,loyal,69,personal,business,90,0,25,-25,worsened,neutral or dissatisfied,False,2.0,3.0,3.0,3.0,3.0,2.0,16.0,53.33,3.0,3.0,1.0,1.0,3.0,3,3.0,3.0,20.0,50.0
+17601,mid,M,loyal,62,personal,eco plus,695,0,0,0,same,neutral or dissatisfied,False,1.0,1.0,1.0,1.0,4.0,1.0,9.0,30.0,4.0,5.0,3.0,4.0,4.0,3,3.0,4.0,30.0,75.0
+33468,mid,F,loyal,66,personal,eco plus,2556,0,0,0,same,satisfied,True,5.0,5.0,1.0,4.0,5.0,1.0,21.0,70.0,4.0,4.0,3.0,5.0,5.0,4,1.0,3.0,29.0,72.5
+120048,high,F,loyal,63,personal,business,356,0,0,0,same,satisfied,True,4.0,4.0,3.0,2.0,5.0,4.0,22.0,73.33,2.0,2.0,5.0,5.0,4.0,2,3.0,5.0,28.0,70.0
+102062,high,M,loyal,64,personal,business,236,25,16,9,recovered,neutral or dissatisfied,False,4.0,3.0,1.0,4.0,3.0,1.0,16.0,53.33,4.0,4.0,3.0,3.0,3.0,2,3.0,3.0,25.0,62.5
+13085,high,F,loyal,69,personal,business,427,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,1.0,3.0,4.0,4.0,18.0,60.0,3.0,3.0,4.0,3.0,4.0,4,2.0,3.0,26.0,65.0
+38386,mid,M,loyal,67,personal,eco plus,1133,0,3,-3,worsened,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,4.0,3.0,19.0,63.33,5.0,4.0,5.0,4.0,4.0,4,3.0,4.0,33.0,82.5
+82294,mid,F,loyal,66,personal,eco plus,1481,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,1.0,4.0,4.0,3.0,17.0,56.67,4.0,4.0,3.0,1.0,4.0,4,5.0,4.0,29.0,72.5
+65302,mid,F,loyal,68,personal,eco plus,247,1,2,-1,worsened,neutral or dissatisfied,False,4.0,,4.0,2.0,2.0,5.0,17.0,56.67,2.0,2.0,4.0,5.0,,2,3.0,4.0,22.0,55.0
+100565,high,F,loyal,61,personal,business,486,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,2.0,3.0,1.0,1.0,12.0,40.0,3.0,3.0,2.0,2.0,1.0,3,4.0,2.0,20.0,50.0
+6653,mid,F,loyal,68,personal,eco plus,416,28,22,6,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,4.0,23.0,76.67,4.0,4.0,1.0,3.0,3.0,4,4.0,4.0,27.0,67.5
+101565,mid,F,loyal,68,personal,eco plus,345,0,8,-8,worsened,neutral or dissatisfied,False,4.0,1.0,3.0,4.0,1.0,5.0,18.0,60.0,4.0,4.0,3.0,4.0,1.0,4,4.0,5.0,29.0,72.5
+40403,high,F,loyal,70,personal,business,222,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,4.0,4.0,2.0,2.0,15.0,50.0,4.0,4.0,3.0,4.0,2.0,4,3.0,,24.0,60.0
+79281,high,M,loyal,65,personal,business,2248,19,7,12,recovered,neutral or dissatisfied,False,4.0,1.0,5.0,3.0,1.0,5.0,19.0,63.33,3.0,3.0,3.0,5.0,1.0,3,2.0,4.0,24.0,60.0
+107217,mid,F,loyal,69,personal,eco plus,668,11,0,11,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,5.0,2.0,5.0,21.0,70.0,5.0,5.0,5.0,5.0,2.0,5,3.0,4.0,34.0,85.0
+109700,mid,F,loyal,70,personal,eco plus,973,42,24,18,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,2.0,3.0,3.0,20.0,66.67,2.0,2.0,5.0,5.0,3.0,2,2.0,4.0,25.0,62.5
+71501,high,M,loyal,66,personal,business,1197,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,1.0,3.0,5.0,20.0,66.67,1.0,1.0,2.0,4.0,3.0,1,2.0,4.0,18.0,45.0
+51424,mid,M,loyal,64,personal,eco plus,373,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,2.0,2.0,1.0,2.0,14.0,46.67,3.0,4.0,2.0,1.0,1.0,4,3.0,4.0,22.0,55.0
+35806,high,M,loyal,62,personal,business,1023,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,3.0,1.0,3.0,2.0,16.0,53.33,1.0,1.0,5.0,4.0,4.0,1,3.0,4.0,23.0,57.5
+83775,mid,M,loyal,62,personal,eco plus,926,13,4,9,recovered,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,2.0,4.0,23.0,76.67,4.0,4.0,4.0,2.0,2.0,4,2.0,5.0,27.0,67.5
+80951,mid,M,loyal,62,personal,eco plus,341,2,0,2,recovered,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,4.0,1.0,13.0,43.33,3.0,5.0,3.0,4.0,4.0,5,3.0,4.0,31.0,77.5
+1893,high,F,loyal,66,personal,business,285,10,7,3,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,1.0,2.0,2.0,15.0,50.0,1.0,1.0,4.0,3.0,2.0,1,3.0,2.0,17.0,42.5
+51462,mid,M,loyal,61,personal,eco plus,86,0,0,0,same,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,1.0,5.0,26.0,86.67,4.0,5.0,5.0,1.0,1.0,4,1.0,5.0,26.0,65.0
+8841,mid,M,loyal,66,personal,eco plus,522,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,3.0,3.0,1.0,3.0,15.0,50.0,4.0,5.0,3.0,1.0,1.0,5,3.0,5.0,27.0,67.5
+66627,high,F,loyal,70,personal,business,802,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,1.0,4.0,1.0,1.0,11.0,36.67,4.0,4.0,2.0,3.0,1.0,4,3.0,2.0,23.0,57.5
+89474,mid,F,loyal,63,personal,eco plus,134,1,0,1,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,5.0,23.0,76.67,4.0,4.0,5.0,3.0,3.0,4,2.0,,25.0,62.5
+12229,high,M,loyal,64,personal,business,192,0,2,-2,worsened,neutral or dissatisfied,False,5.0,2.0,3.0,3.0,2.0,3.0,18.0,60.0,3.0,3.0,5.0,4.0,2.0,3,3.0,4.0,27.0,67.5
+65546,high,M,loyal,62,personal,business,175,2,14,-12,worsened,neutral or dissatisfied,False,4.0,2.0,4.0,3.0,2.0,4.0,19.0,63.33,3.0,3.0,3.0,5.0,2.0,3,2.0,5.0,26.0,65.0
+67996,mid,M,loyal,69,personal,eco plus,1235,0,12,-12,worsened,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,3.0,3.0,18.0,60.0,5.0,1.0,2.0,3.0,3.0,1,3.0,5.0,23.0,57.5
+123535,mid,M,loyal,70,personal,eco plus,2077,14,7,7,recovered,neutral or dissatisfied,False,1.0,4.0,5.0,5.0,2.0,5.0,22.0,73.33,4.0,4.0,2.0,2.0,2.0,2,4.0,3.0,23.0,57.5
+97590,mid,F,loyal,64,personal,eco plus,448,6,0,6,recovered,neutral or dissatisfied,False,1.0,3.0,3.0,3.0,4.0,4.0,18.0,60.0,3.0,3.0,2.0,2.0,3.0,4,3.0,5.0,25.0,62.5
+16550,high,F,loyal,61,personal,business,872,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,4.0,5.0,3.0,1.0,18.0,60.0,5.0,5.0,3.0,3.0,3.0,5,3.0,3.0,30.0,75.0
+70056,mid,F,loyal,69,personal,eco plus,583,0,0,0,same,satisfied,True,5.0,5.0,4.0,1.0,5.0,4.0,24.0,80.0,1.0,1.0,5.0,4.0,5.0,1,1.0,4.0,22.0,55.0
+33776,high,M,loyal,69,personal,business,588,16,14,2,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,3.0,5.0,25.0,83.33,5.0,5.0,4.0,4.0,3.0,4,2.0,5.0,32.0,80.0
+77306,high,F,loyal,65,personal,business,590,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,4.0,1.0,5.0,19.0,63.33,4.0,4.0,5.0,5.0,1.0,4,4.0,4.0,31.0,77.5
+30210,mid,F,loyal,67,personal,eco plus,253,0,0,0,same,neutral or dissatisfied,False,5.0,,2.0,1.0,1.0,5.0,14.0,46.67,1.0,1.0,1.0,5.0,,1,5.0,4.0,18.0,45.0
+39330,mid,F,loyal,65,personal,eco plus,67,0,17,-17,worsened,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,1.0,3.0,14.0,46.67,3.0,3.0,4.0,2.0,1.0,3,3.0,3.0,22.0,55.0
+105465,high,F,loyal,64,personal,business,495,8,11,-3,worsened,neutral or dissatisfied,False,5.0,3.0,5.0,4.0,3.0,3.0,23.0,76.67,4.0,4.0,5.0,4.0,3.0,2,5.0,4.0,31.0,77.5
+10245,high,F,loyal,65,personal,business,482,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,4.0,2.0,3.0,3.0,18.0,60.0,2.0,2.0,2.0,4.0,3.0,2,3.0,2.0,20.0,50.0
+4088,high,M,loyal,66,personal,business,431,0,0,0,same,satisfied,True,4.0,4.0,2.0,3.0,4.0,5.0,22.0,73.33,3.0,3.0,5.0,4.0,4.0,1,1.0,5.0,26.0,65.0
+85651,mid,M,loyal,61,personal,eco plus,192,34,21,13,recovered,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,3.0,3.0,20.0,66.67,3.0,4.0,5.0,3.0,3.0,5,1.0,4.0,28.0,70.0
+114541,high,M,loyal,68,personal,business,417,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,4.0,1.0,2.0,3.0,14.0,46.67,1.0,1.0,4.0,5.0,2.0,1,2.0,5.0,21.0,52.5
+113879,mid,F,loyal,63,personal,eco plus,1334,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,2.0,2.0,5.0,20.0,66.67,2.0,2.0,4.0,5.0,2.0,2,1.0,5.0,23.0,57.5
+64513,high,M,loyal,70,personal,business,354,16,22,-6,worsened,neutral or dissatisfied,False,4.0,2.0,3.0,4.0,2.0,5.0,20.0,66.67,4.0,4.0,5.0,4.0,2.0,5,3.0,4.0,31.0,77.5
+39907,mid,F,loyal,64,personal,eco plus,272,4,0,4,recovered,neutral or dissatisfied,False,3.0,4.0,3.0,1.0,4.0,3.0,18.0,60.0,1.0,1.0,5.0,4.0,4.0,2,1.0,,18.0,45.0
+11527,mid,F,loyal,69,personal,eco plus,429,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,5.0,5.0,3.0,2.0,21.0,70.0,5.0,5.0,3.0,3.0,2.0,5,3.0,3.0,29.0,72.5
+30820,high,M,loyal,61,personal,business,896,35,23,12,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,5.0,2.0,5.0,18.0,60.0,5.0,5.0,3.0,3.0,2.0,5,3.0,3.0,29.0,72.5
+17859,high,M,loyal,66,personal,business,371,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,1.0,1.0,3.0,2.0,14.0,46.67,1.0,1.0,3.0,4.0,3.0,5,3.0,3.0,23.0,57.5
+95530,mid,M,loyal,67,personal,eco plus,239,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,4.0,1.0,11.0,36.67,4.0,4.0,3.0,,,5,1.0,4.0,21.0,52.5
+121108,high,F,loyal,68,personal,business,2402,25,0,25,recovered,neutral or dissatisfied,False,4.0,1.0,3.0,3.0,1.0,4.0,16.0,53.33,3.0,3.0,4.0,5.0,1.0,2,4.0,4.0,26.0,65.0
+120513,mid,F,loyal,63,personal,eco plus,449,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,1.0,5.0,1.0,4.0,16.0,53.33,5.0,5.0,3.0,3.0,1.0,5,4.0,2.0,28.0,70.0
+98211,high,M,loyal,67,personal,business,842,24,8,16,recovered,neutral or dissatisfied,False,3.0,1.0,3.0,1.0,1.0,4.0,13.0,43.33,1.0,1.0,2.0,4.0,1.0,3,4.0,3.0,19.0,47.5
+6306,high,M,loyal,69,personal,business,296,6,0,6,recovered,neutral or dissatisfied,False,5.0,4.0,4.0,5.0,4.0,4.0,26.0,86.67,5.0,5.0,4.0,5.0,4.0,5,2.0,5.0,35.0,87.5
+122524,high,F,loyal,68,personal,business,500,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,2.0,2.0,2.0,1.0,12.0,40.0,2.0,2.0,2.0,4.0,2.0,2,4.0,1.0,19.0,47.5
+30445,high,M,loyal,70,personal,business,991,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,3.0,2.0,3.0,17.0,56.67,3.0,3.0,5.0,4.0,2.0,3,1.0,4.0,25.0,62.5
+14048,mid,F,loyal,61,personal,eco plus,106,0,0,0,same,neutral or dissatisfied,False,5.0,,4.0,1.0,2.0,5.0,17.0,56.67,1.0,1.0,4.0,5.0,,1,4.0,4.0,20.0,50.0
+11683,high,F,loyal,63,personal,business,429,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,2.0,3.0,1.0,3.0,14.0,46.67,3.0,3.0,3.0,5.0,1.0,3,1.0,4.0,23.0,57.5
+94109,high,M,loyal,69,personal,business,677,3,11,-8,worsened,neutral or dissatisfied,False,5.0,3.0,4.0,4.0,2.0,3.0,21.0,70.0,4.0,4.0,3.0,4.0,3.0,1,5.0,5.0,29.0,72.5
+30774,high,M,loyal,69,personal,business,895,23,12,11,recovered,neutral or dissatisfied,False,3.0,3.0,2.0,5.0,3.0,4.0,20.0,66.67,5.0,5.0,4.0,3.0,3.0,5,3.0,3.0,31.0,77.5
+51411,mid,M,loyal,63,personal,eco plus,209,0,0,0,same,satisfied,True,2.0,5.0,4.0,4.0,5.0,4.0,24.0,80.0,4.0,4.0,1.0,5.0,5.0,4,3.0,3.0,29.0,72.5
+21848,high,F,loyal,64,personal,business,500,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,3.0,2.0,5.0,19.0,63.33,3.0,3.0,4.0,4.0,2.0,3,3.0,5.0,27.0,67.5
+113134,mid,F,loyal,62,personal,eco plus,479,21,23,-2,worsened,neutral or dissatisfied,False,2.0,3.0,3.0,4.0,3.0,4.0,19.0,63.33,4.0,4.0,5.0,5.0,3.0,4,1.0,5.0,31.0,77.5
+96747,mid,M,loyal,63,personal,eco plus,813,0,0,0,same,satisfied,True,4.0,2.0,4.0,4.0,4.0,4.0,22.0,73.33,3.0,4.0,3.0,4.0,4.0,3,4.0,1.0,26.0,65.0
+39638,mid,M,loyal,67,personal,eco plus,620,0,0,0,same,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,1.0,1.0,10.0,33.33,4.0,5.0,5.0,1.0,1.0,5,1.0,4.0,26.0,65.0
+71100,mid,M,loyal,63,personal,eco plus,802,12,0,12,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,2.0,4.0,21.0,70.0,2.0,3.0,4.0,2.0,2.0,2,3.0,2.0,20.0,50.0
+51394,mid,M,loyal,66,personal,eco plus,56,0,13,-13,worsened,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,2.0,5.0,27.0,90.0,4.0,4.0,3.0,,,3,4.0,1.0,19.0,47.5
+33286,mid,F,loyal,62,personal,eco plus,102,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,1.0,3.0,2.0,5.0,17.0,56.67,3.0,3.0,5.0,3.0,2.0,5,3.0,5.0,29.0,72.5
+51454,mid,F,loyal,65,personal,eco plus,158,3,27,-24,worsened,neutral or dissatisfied,False,3.0,1.0,2.0,1.0,1.0,4.0,12.0,40.0,1.0,1.0,4.0,3.0,1.0,1,3.0,2.0,16.0,40.0
+91367,mid,M,loyal,61,personal,eco plus,404,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,3.0,4.0,21.0,70.0,3.0,4.0,3.0,3.0,3.0,4,3.0,2.0,25.0,62.5
+71500,high,M,loyal,64,personal,business,1120,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,4.0,3.0,3.0,5.0,19.0,63.33,3.0,3.0,3.0,1.0,3.0,3,1.0,5.0,22.0,55.0
+61564,mid,F,loyal,61,personal,eco plus,2419,0,0,0,same,satisfied,True,1.0,5.0,4.0,1.0,5.0,1.0,17.0,56.67,1.0,1.0,4.0,5.0,5.0,1,3.0,3.0,23.0,57.5
+79280,high,M,loyal,68,personal,business,2248,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,5.0,4.0,4.0,3.0,24.0,80.0,4.0,4.0,1.0,4.0,4.0,4,2.0,4.0,27.0,67.5
+119365,high,F,loyal,65,personal,business,399,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,5.0,3.0,1.0,4.0,18.0,60.0,3.0,3.0,4.0,5.0,1.0,3,4.0,5.0,28.0,70.0
+100456,high,F,loyal,66,personal,business,759,12,0,12,recovered,neutral or dissatisfied,False,4.0,2.0,2.0,3.0,2.0,4.0,17.0,56.67,3.0,3.0,3.0,4.0,2.0,3,5.0,5.0,28.0,70.0
+81588,high,F,loyal,63,personal,business,349,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,3.0,2.0,4.0,4.0,22.0,73.33,2.0,2.0,4.0,5.0,4.0,2,2.0,4.0,25.0,62.5
+41988,high,M,loyal,63,personal,business,116,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,2.0,2.0,2.0,3.0,14.0,46.67,2.0,2.0,4.0,2.0,2.0,2,3.0,1.0,18.0,45.0
+112641,mid,M,loyal,68,personal,eco plus,639,4,0,4,recovered,satisfied,True,3.0,3.0,3.0,3.0,4.0,3.0,19.0,63.33,5.0,5.0,3.0,4.0,4.0,5,2.0,4.0,32.0,80.0
+75293,mid,F,loyal,65,personal,eco plus,1846,0,0,0,same,satisfied,True,1.0,,3.0,2.0,,2.0,8.0,26.67,2.0,2.0,5.0,4.0,,2,2.0,4.0,21.0,52.5
+119779,high,F,loyal,61,personal,business,936,3,0,3,recovered,neutral or dissatisfied,False,1.0,4.0,1.0,3.0,4.0,2.0,15.0,50.0,3.0,3.0,1.0,4.0,4.0,3,2.0,5.0,25.0,62.5
+54779,mid,F,loyal,65,personal,eco plus,787,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,3.0,2.0,5.0,20.0,66.67,3.0,3.0,5.0,1.0,2.0,3,3.0,5.0,25.0,62.5
+121518,high,F,loyal,65,personal,business,912,7,11,-4,worsened,neutral or dissatisfied,False,5.0,2.0,3.0,5.0,2.0,3.0,20.0,66.67,5.0,5.0,3.0,4.0,2.0,5,2.0,5.0,31.0,77.5
+86564,mid,F,loyal,63,personal,eco plus,712,30,16,14,recovered,neutral or dissatisfied,False,5.0,1.0,5.0,2.0,1.0,4.0,18.0,60.0,2.0,2.0,5.0,4.0,1.0,2,3.0,4.0,23.0,57.5
+79152,mid,M,loyal,70,personal,eco plus,306,0,5,-5,worsened,neutral or dissatisfied,False,1.0,2.0,1.0,1.0,2.0,1.0,8.0,26.67,5.0,4.0,3.0,2.0,2.0,5,2.0,4.0,27.0,67.5
+33306,mid,F,loyal,64,personal,eco plus,163,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,4.0,3.0,3.0,23.0,76.67,4.0,4.0,5.0,4.0,3.0,5,4.0,5.0,34.0,85.0
+59175,mid,M,loyal,62,personal,eco plus,1846,12,3,9,recovered,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,2.0,1.0,10.0,33.33,3.0,5.0,1.0,2.0,2.0,5,1.0,4.0,23.0,57.5
+98901,high,F,loyal,70,personal,business,543,30,20,10,recovered,neutral or dissatisfied,False,5.0,1.0,5.0,4.0,1.0,5.0,21.0,70.0,4.0,4.0,5.0,4.0,1.0,4,4.0,5.0,31.0,77.5
+97281,high,F,loyal,68,personal,business,347,1,0,1,recovered,neutral or dissatisfied,False,4.0,3.0,3.0,1.0,3.0,3.0,17.0,56.67,1.0,1.0,3.0,4.0,3.0,1,5.0,5.0,23.0,57.5
+66285,mid,M,loyal,61,personal,eco plus,550,0,11,-11,worsened,satisfied,True,3.0,3.0,3.0,3.0,4.0,3.0,19.0,63.33,1.0,4.0,4.0,4.0,4.0,3,4.0,3.0,27.0,67.5
+56839,mid,M,loyal,67,personal,eco plus,1605,0,0,0,same,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,3.0,2.0,16.0,53.33,5.0,4.0,3.0,3.0,3.0,4,3.0,5.0,30.0,75.0
+88841,mid,F,loyal,63,personal,eco plus,270,3,0,3,recovered,neutral or dissatisfied,False,4.0,2.0,5.0,4.0,2.0,4.0,21.0,70.0,4.0,4.0,5.0,5.0,2.0,4,2.0,5.0,31.0,77.5
+66614,mid,F,loyal,62,personal,eco plus,761,0,9,-9,worsened,neutral or dissatisfied,False,5.0,3.0,5.0,2.0,3.0,4.0,22.0,73.33,2.0,2.0,4.0,5.0,3.0,2,2.0,5.0,25.0,62.5
+40338,mid,M,loyal,61,personal,eco plus,402,0,0,0,same,satisfied,True,4.0,3.0,3.0,3.0,4.0,3.0,20.0,66.67,3.0,4.0,3.0,5.0,5.0,4,5.0,5.0,34.0,85.0
+34098,high,M,loyal,67,personal,business,1129,0,0,0,same,satisfied,True,4.0,4.0,4.0,4.0,4.0,4.0,24.0,80.0,4.0,4.0,5.0,4.0,4.0,5,2.0,5.0,33.0,82.5
+109270,mid,M,loyal,64,personal,eco plus,793,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,1.0,4.0,19.0,63.33,5.0,5.0,3.0,1.0,1.0,5,1.0,5.0,26.0,65.0
+28794,high,F,loyal,63,personal,business,978,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,4.0,3.0,3.0,20.0,66.67,4.0,4.0,3.0,5.0,3.0,4,1.0,4.0,28.0,70.0
+92579,mid,M,loyal,70,personal,eco plus,2139,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,3.0,3.0,16.0,53.33,1.0,3.0,1.0,3.0,3.0,4,3.0,4.0,22.0,55.0
+31988,high,F,loyal,70,personal,business,101,0,0,0,same,satisfied,True,4.0,,1.0,2.0,5.0,4.0,16.0,53.33,2.0,2.0,3.0,3.0,,2,1.0,5.0,18.0,45.0
+34627,high,M,loyal,61,personal,business,541,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,3.0,2.0,4.0,20.0,66.67,3.0,3.0,2.0,1.0,2.0,3,1.0,4.0,19.0,47.5
+112977,mid,F,loyal,64,personal,eco plus,1497,12,12,0,same,neutral or dissatisfied,False,4.0,2.0,5.0,2.0,2.0,1.0,16.0,53.33,2.0,2.0,4.0,4.0,2.0,2,3.0,2.0,21.0,52.5
+41625,mid,M,loyal,68,personal,eco plus,1269,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,1.0,1.0,1.0,1.0,10.0,33.33,3.0,3.0,4.0,1.0,1.0,4,4.0,2.0,22.0,55.0
+3108,mid,M,loyal,62,personal,eco plus,413,0,9,-9,worsened,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,1.0,5.0,25.0,83.33,5.0,5.0,2.0,3.0,3.0,4,1.0,5.0,28.0,70.0
+14926,mid,M,loyal,63,personal,eco plus,240,0,0,0,same,satisfied,True,1.0,1.0,1.0,1.0,,1.0,5.0,16.67,3.0,2.0,1.0,,,2,3.0,5.0,16.0,40.0
+59296,high,M,loyal,65,personal,business,2486,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,1.0,1.0,4.0,1.0,13.0,43.33,1.0,1.0,3.0,1.0,4.0,1,1.0,3.0,15.0,37.5
+97693,mid,F,loyal,64,personal,eco plus,491,9,27,-18,worsened,neutral or dissatisfied,False,3.0,2.0,5.0,4.0,2.0,5.0,21.0,70.0,4.0,4.0,3.0,1.0,2.0,4,4.0,5.0,27.0,67.5
+35607,mid,M,loyal,63,personal,eco plus,1076,0,11,-11,worsened,neutral or dissatisfied,False,2.0,4.0,2.0,2.0,3.0,2.0,15.0,50.0,3.0,4.0,4.0,3.0,3.0,5,4.0,4.0,30.0,75.0
+87724,mid,F,loyal,61,personal,eco plus,606,0,2,-2,worsened,neutral or dissatisfied,False,4.0,3.0,3.0,1.0,3.0,3.0,17.0,56.67,1.0,1.0,5.0,4.0,3.0,2,2.0,5.0,23.0,57.5
+122924,high,M,loyal,62,personal,business,468,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,5.0,5.0,3.0,2.0,20.0,66.67,5.0,5.0,5.0,3.0,3.0,5,5.0,4.0,35.0,87.5
+33833,high,M,loyal,62,personal,business,1562,0,11,-11,worsened,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,4.0,23.0,76.67,5.0,5.0,5.0,5.0,2.0,5,4.0,4.0,35.0,87.5
+92359,mid,F,loyal,62,personal,eco plus,2556,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,3.0,3.0,5.0,22.0,73.33,3.0,3.0,3.0,5.0,2.0,3,3.0,5.0,27.0,67.5
+86941,high,F,loyal,61,personal,business,907,16,0,16,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,4.0,21.0,70.0,3.0,3.0,2.0,4.0,3.0,3,3.0,4.0,25.0,62.5
+68560,mid,M,loyal,67,personal,eco plus,2136,0,0,0,same,satisfied,True,4.0,2.0,4.0,4.0,5.0,4.0,23.0,76.67,3.0,5.0,4.0,5.0,5.0,4,4.0,5.0,35.0,87.5
+18134,mid,M,loyal,62,personal,eco plus,120,0,23,-23,worsened,neutral or dissatisfied,False,2.0,1.0,2.0,2.0,2.0,2.0,11.0,36.67,2.0,4.0,2.0,2.0,2.0,4,3.0,2.0,21.0,52.5
+38859,mid,F,loyal,65,personal,eco plus,2153,0,3,-3,worsened,neutral or dissatisfied,False,5.0,1.0,5.0,2.0,1.0,4.0,18.0,60.0,2.0,2.0,3.0,5.0,1.0,1,5.0,5.0,24.0,60.0
+68439,mid,F,loyal,68,personal,eco plus,1045,0,10,-10,worsened,neutral or dissatisfied,False,2.0,2.0,3.0,5.0,2.0,5.0,19.0,63.33,5.0,5.0,2.0,5.0,2.0,5,3.0,4.0,31.0,77.5
+12221,high,F,loyal,69,personal,business,201,0,0,0,same,neutral or dissatisfied,False,1.0,2.0,3.0,4.0,2.0,3.0,15.0,50.0,4.0,4.0,3.0,1.0,2.0,4,2.0,4.0,24.0,60.0
+4572,mid,F,loyal,62,personal,eco plus,561,0,7,-7,worsened,neutral or dissatisfied,False,2.0,3.0,2.0,1.0,3.0,1.0,12.0,40.0,1.0,1.0,3.0,2.0,3.0,1,2.0,2.0,15.0,37.5
+56273,mid,M,loyal,61,personal,eco plus,404,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,4.0,4.0,2.0,4.0,22.0,73.33,4.0,4.0,4.0,2.0,2.0,4,2.0,4.0,26.0,65.0
+69932,mid,M,loyal,67,personal,eco plus,1514,0,0,0,same,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,1.0,2.0,14.0,46.67,3.0,4.0,5.0,1.0,1.0,3,3.0,4.0,24.0,60.0
+36110,mid,M,loyal,70,personal,eco plus,399,0,16,-16,worsened,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,2.0,4.0,22.0,73.33,4.0,4.0,4.0,2.0,2.0,4,3.0,5.0,28.0,70.0
+15525,mid,F,loyal,63,personal,eco plus,164,0,1,-1,worsened,neutral or dissatisfied,False,4.0,1.0,2.0,3.0,1.0,5.0,16.0,53.33,3.0,3.0,4.0,4.0,1.0,3,3.0,3.0,24.0,60.0
+3544,high,M,loyal,61,personal,business,227,4,0,4,recovered,neutral or dissatisfied,False,4.0,1.0,2.0,2.0,1.0,4.0,14.0,46.67,2.0,2.0,1.0,4.0,1.0,4,3.0,4.0,21.0,52.5
+97223,mid,F,loyal,65,personal,eco plus,1129,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,1.0,5.0,1.0,4.0,15.0,50.0,5.0,5.0,3.0,4.0,1.0,5,3.0,4.0,30.0,75.0
+100597,high,M,loyal,69,personal,business,718,7,0,7,recovered,satisfied,True,5.0,5.0,5.0,4.0,5.0,3.0,27.0,90.0,4.0,4.0,3.0,4.0,5.0,4,4.0,5.0,33.0,82.5
+129125,high,M,loyal,67,personal,business,954,1,0,1,recovered,neutral or dissatisfied,False,5.0,3.0,4.0,3.0,3.0,3.0,21.0,70.0,3.0,3.0,3.0,4.0,3.0,4,3.0,5.0,28.0,70.0
+75297,mid,F,loyal,70,personal,eco plus,1846,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,3.0,1.0,4.0,17.0,56.67,3.0,3.0,3.0,4.0,2.0,3,1.0,4.0,23.0,57.5
+67548,high,M,loyal,62,personal,business,1171,3,0,3,recovered,neutral or dissatisfied,False,5.0,2.0,3.0,4.0,2.0,3.0,19.0,63.33,4.0,4.0,4.0,3.0,2.0,4,3.0,4.0,28.0,70.0
+51409,mid,M,loyal,68,personal,eco plus,109,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,4.0,4.0,4.0,1.0,1.0,3,3.0,2.0,22.0,55.0
+29516,mid,F,loyal,70,personal,eco plus,1107,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,5.0,2.0,3.0,4.0,20.0,66.67,2.0,2.0,2.0,3.0,3.0,2,3.0,3.0,20.0,50.0
+48824,high,F,loyal,66,personal,business,373,1,9,-8,worsened,satisfied,True,4.0,5.0,2.0,4.0,5.0,1.0,21.0,70.0,4.0,4.0,4.0,4.0,5.0,4,4.0,2.0,31.0,77.5
+74073,high,M,loyal,65,personal,business,641,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,3.0,3.0,4.0,23.0,76.67,3.0,3.0,5.0,5.0,3.0,5,4.0,5.0,33.0,82.5
+51843,mid,M,loyal,63,personal,eco plus,493,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,1.0,3.0,17.0,56.67,2.0,3.0,2.0,2.0,2.0,4,4.0,3.0,22.0,55.0
+108638,mid,F,loyal,66,personal,eco plus,1547,3,0,3,recovered,neutral or dissatisfied,False,5.0,1.0,5.0,5.0,1.0,3.0,20.0,66.67,5.0,5.0,3.0,3.0,1.0,2,2.0,5.0,26.0,65.0
+72317,mid,M,loyal,67,personal,eco plus,919,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,3.0,1.0,3.0,17.0,56.67,2.0,4.0,2.0,1.0,1.0,3,3.0,2.0,18.0,45.0
+17898,mid,F,loyal,63,personal,eco plus,371,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,1.0,3.0,4.0,1.0,17.0,56.67,3.0,3.0,3.0,3.0,4.0,3,3.0,4.0,26.0,65.0
+59170,mid,F,loyal,64,personal,eco plus,1846,12,0,12,recovered,neutral or dissatisfied,False,2.0,2.0,1.0,5.0,3.0,3.0,16.0,53.33,5.0,5.0,4.0,4.0,2.0,3,1.0,4.0,28.0,70.0
+113835,mid,M,loyal,62,personal,eco plus,236,37,27,10,recovered,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,3.0,3.0,19.0,63.33,3.0,5.0,5.0,3.0,3.0,5,3.0,4.0,31.0,77.5
+84969,mid,F,loyal,66,personal,eco plus,547,2,0,2,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,2.0,5.0,21.0,70.0,4.0,4.0,4.0,4.0,2.0,4,1.0,5.0,28.0,70.0
+10249,high,M,loyal,61,personal,business,316,12,9,3,recovered,neutral or dissatisfied,False,3.0,2.0,3.0,3.0,2.0,1.0,14.0,46.67,3.0,3.0,4.0,4.0,2.0,3,4.0,4.0,27.0,67.5
+6304,high,M,loyal,66,personal,business,296,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,3.0,3.0,2.0,3.0,17.0,56.67,3.0,3.0,5.0,5.0,2.0,3,3.0,4.0,28.0,70.0
+114561,high,F,loyal,64,personal,business,404,1,0,1,recovered,neutral or dissatisfied,False,5.0,3.0,4.0,3.0,3.0,3.0,21.0,70.0,3.0,3.0,3.0,5.0,3.0,2,3.0,5.0,27.0,67.5
+95559,mid,F,loyal,70,personal,eco plus,239,1,1,0,same,neutral or dissatisfied,False,3.0,2.0,1.0,2.0,2.0,1.0,11.0,36.67,2.0,2.0,2.0,3.0,2.0,5,3.0,3.0,22.0,55.0
+53333,mid,F,loyal,68,personal,eco plus,758,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,1.0,5.0,3.0,2.0,18.0,60.0,5.0,5.0,3.0,3.0,3.0,1,3.0,3.0,26.0,65.0
+48855,high,M,loyal,67,personal,business,86,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,3.0,20.0,66.67,3.0,3.0,4.0,4.0,3.0,3,3.0,4.0,27.0,67.5
+42421,mid,M,loyal,64,personal,eco plus,817,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,4.0,4.0,2.0,4.0,23.0,76.67,1.0,5.0,3.0,2.0,2.0,1,1.0,3.0,18.0,45.0
+12787,high,M,loyal,63,personal,business,489,25,22,3,recovered,neutral or dissatisfied,False,4.0,4.0,5.0,2.0,4.0,3.0,22.0,73.33,2.0,2.0,4.0,4.0,4.0,2,3.0,2.0,23.0,57.5
+1477,mid,F,loyal,62,personal,eco plus,695,0,0,0,same,satisfied,True,5.0,5.0,5.0,5.0,5.0,4.0,29.0,96.67,5.0,5.0,3.0,4.0,5.0,5,3.0,4.0,34.0,85.0
+28094,high,M,loyal,63,personal,business,933,13,0,13,recovered,neutral or dissatisfied,False,3.0,3.0,4.0,2.0,3.0,3.0,18.0,60.0,2.0,2.0,2.0,3.0,3.0,2,3.0,1.0,18.0,45.0
+113239,high,M,loyal,70,personal,business,197,2,0,2,recovered,neutral or dissatisfied,False,1.0,2.0,5.0,3.0,2.0,5.0,18.0,60.0,3.0,3.0,1.0,1.0,2.0,3,3.0,5.0,21.0,52.5
+126783,high,F,loyal,67,personal,business,2077,0,0,0,same,satisfied,True,5.0,4.0,3.0,3.0,5.0,3.0,23.0,76.67,3.0,3.0,3.0,5.0,4.0,3,2.0,4.0,27.0,67.5
+72202,mid,F,loyal,64,personal,eco plus,594,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,5.0,2.0,2.0,4.0,19.0,63.33,2.0,2.0,4.0,3.0,2.0,2,4.0,4.0,23.0,57.5
+34843,mid,M,loyal,62,personal,eco plus,301,0,0,0,same,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,2.0,1.0,9.0,30.0,4.0,3.0,2.0,2.0,2.0,5,5.0,4.0,27.0,67.5
+11507,mid,M,loyal,61,personal,eco plus,163,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,3.0,5.0,5.0,1.0,1.0,5,2.0,5.0,27.0,67.5
+81932,high,M,loyal,68,personal,business,1454,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,2.0,3.0,19.0,63.33,4.0,4.0,4.0,4.0,2.0,4,4.0,2.0,28.0,70.0
+98007,mid,M,loyal,66,personal,eco plus,722,1,0,1,recovered,neutral or dissatisfied,False,5.0,1.0,4.0,4.0,2.0,4.0,20.0,66.67,3.0,3.0,3.0,2.0,2.0,4,3.0,2.0,22.0,55.0
+125516,mid,M,loyal,63,personal,eco plus,666,0,2,-2,worsened,neutral or dissatisfied,False,5.0,1.0,4.0,4.0,1.0,4.0,19.0,63.33,4.0,5.0,3.0,1.0,1.0,1,4.0,5.0,24.0,60.0
+116846,high,M,loyal,70,personal,business,647,1,0,1,recovered,neutral or dissatisfied,False,3.0,3.0,2.0,3.0,3.0,4.0,18.0,60.0,3.0,3.0,5.0,2.0,3.0,3,1.0,4.0,24.0,60.0
+120603,mid,F,loyal,70,personal,eco plus,980,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,2.0,2.0,1.0,13.0,43.33,2.0,2.0,1.0,3.0,2.0,2,3.0,3.0,18.0,45.0
+129280,high,F,loyal,70,personal,business,550,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,3.0,5.0,2.0,5.0,21.0,70.0,5.0,5.0,4.0,4.0,2.0,2,2.0,,24.0,60.0
+68554,high,F,loyal,69,personal,business,2136,0,1,-1,worsened,neutral or dissatisfied,False,4.0,1.0,2.0,1.0,1.0,3.0,12.0,40.0,1.0,1.0,4.0,5.0,1.0,1,4.0,5.0,22.0,55.0
+46350,mid,F,loyal,63,personal,eco plus,589,0,1,-1,worsened,neutral or dissatisfied,False,4.0,2.0,2.0,4.0,2.0,2.0,16.0,53.33,4.0,4.0,1.0,4.0,2.0,4,3.0,2.0,24.0,60.0
+91409,high,F,loyal,64,personal,business,1050,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,4.0,5.0,3.0,2.0,19.0,63.33,5.0,5.0,4.0,3.0,2.0,5,3.0,1.0,28.0,70.0
+87537,mid,F,loyal,69,personal,eco plus,304,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,1.0,3.0,3.0,16.0,53.33,1.0,1.0,4.0,5.0,3.0,4,3.0,5.0,26.0,65.0
+17901,high,M,loyal,66,personal,business,789,15,2,13,recovered,neutral or dissatisfied,False,5.0,3.0,3.0,3.0,3.0,4.0,21.0,70.0,3.0,3.0,3.0,4.0,3.0,3,4.0,4.0,27.0,67.5
+84445,mid,M,loyal,63,personal,eco plus,606,0,0,0,same,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,3.0,2.0,16.0,53.33,3.0,4.0,5.0,3.0,3.0,4,3.0,4.0,29.0,72.5
+1564,high,F,loyal,62,personal,business,140,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,4.0,1.0,5.0,19.0,63.33,4.0,4.0,2.0,5.0,1.0,4,5.0,4.0,29.0,72.5
+98845,high,M,loyal,64,personal,business,1482,14,0,14,recovered,neutral or dissatisfied,False,2.0,3.0,2.0,5.0,3.0,1.0,16.0,53.33,5.0,5.0,2.0,3.0,3.0,2,3.0,1.0,24.0,60.0
+38222,mid,M,loyal,63,personal,eco plus,1121,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,3.0,3.0,4.0,3.0,19.0,63.33,3.0,4.0,5.0,4.0,4.0,5,4.0,4.0,33.0,82.5
+2972,mid,F,loyal,68,personal,eco plus,737,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,3.0,2.0,1.0,3.0,14.0,46.67,2.0,2.0,3.0,5.0,1.0,1,3.0,4.0,21.0,52.5
+101341,mid,M,loyal,65,personal,eco plus,1771,0,0,0,same,neutral or dissatisfied,False,5.0,5.0,4.0,4.0,4.0,4.0,26.0,86.67,2.0,2.0,1.0,4.0,4.0,3,2.0,1.0,19.0,47.5
+123340,mid,F,loyal,61,personal,eco plus,468,5,0,5,recovered,neutral or dissatisfied,False,5.0,3.0,4.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,5.0,4.0,3.0,4,3.0,5.0,32.0,80.0
+6617,mid,F,loyal,64,personal,eco plus,473,7,0,7,recovered,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,3.0,5.0,18.0,60.0,3.0,3.0,4.0,1.0,1.0,3,3.0,3.0,21.0,52.5
+72011,mid,F,loyal,67,personal,eco plus,1437,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,3.0,21.0,70.0,4.0,4.0,4.0,4.0,3.0,4,3.0,2.0,28.0,70.0
+120747,high,M,loyal,63,personal,business,678,0,0,0,same,satisfied,True,4.0,,2.0,1.0,,5.0,12.0,40.0,1.0,1.0,3.0,5.0,,1,4.0,4.0,19.0,47.5
+98548,mid,M,loyal,69,personal,eco plus,402,11,6,5,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,1.0,4.0,19.0,63.33,4.0,5.0,3.0,1.0,1.0,4,3.0,4.0,25.0,62.5
+23623,mid,M,loyal,70,personal,eco plus,977,2,3,-1,worsened,neutral or dissatisfied,False,3.0,4.0,3.0,3.0,1.0,3.0,17.0,56.67,3.0,5.0,5.0,1.0,1.0,5,1.0,5.0,26.0,65.0
+113817,mid,F,loyal,62,personal,eco plus,414,35,20,15,recovered,satisfied,True,3.0,5.0,2.0,5.0,5.0,4.0,24.0,80.0,5.0,5.0,4.0,4.0,5.0,1,3.0,2.0,29.0,72.5
+36111,mid,F,loyal,65,personal,eco plus,413,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,3.0,4.0,1.0,3.0,18.0,60.0,4.0,4.0,3.0,5.0,2.0,4,3.0,4.0,29.0,72.5
+66528,mid,M,loyal,61,personal,eco plus,447,4,0,4,recovered,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,4.0,5.0,4.0,2.0,2.0,4,5.0,4.0,30.0,75.0
+31748,mid,M,loyal,70,personal,eco plus,967,0,0,0,same,satisfied,True,3.0,2.0,3.0,3.0,5.0,3.0,19.0,63.33,3.0,5.0,4.0,5.0,5.0,5,3.0,5.0,35.0,87.5
+11499,mid,M,loyal,62,personal,eco plus,247,9,10,-1,worsened,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,5.0,24.0,80.0,3.0,5.0,5.0,2.0,2.0,5,3.0,4.0,29.0,72.5
+89000,mid,F,loyal,62,personal,eco plus,1199,3,1,2,recovered,neutral or dissatisfied,False,1.0,1.0,4.0,5.0,1.0,4.0,16.0,53.33,5.0,5.0,1.0,4.0,1.0,5,2.0,5.0,28.0,70.0
+84642,mid,F,loyal,68,personal,eco plus,669,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,3.0,3.0,4.0,21.0,70.0,3.0,3.0,3.0,4.0,3.0,3,2.0,5.0,26.0,65.0
+101842,mid,F,loyal,65,personal,eco plus,1521,1,0,1,recovered,neutral or dissatisfied,False,2.0,2.0,3.0,4.0,2.0,3.0,16.0,53.33,4.0,4.0,4.0,1.0,2.0,4,2.0,2.0,23.0,57.5
+107325,high,F,loyal,63,personal,business,632,17,0,17,recovered,neutral or dissatisfied,False,4.0,3.0,1.0,4.0,3.0,4.0,19.0,63.33,4.0,4.0,2.0,3.0,3.0,4,4.0,2.0,26.0,65.0
+40333,mid,F,loyal,69,personal,eco plus,531,0,8,-8,worsened,neutral or dissatisfied,False,4.0,1.0,5.0,2.0,1.0,3.0,16.0,53.33,2.0,2.0,3.0,5.0,1.0,1,3.0,4.0,21.0,52.5
+33519,mid,F,loyal,61,personal,eco plus,1554,0,2,-2,worsened,neutral or dissatisfied,False,3.0,2.0,2.0,5.0,2.0,1.0,15.0,50.0,5.0,5.0,3.0,4.0,2.0,5,3.0,2.0,29.0,72.5
+70831,high,F,loyal,67,personal,business,761,4,0,4,recovered,neutral or dissatisfied,False,4.0,1.0,3.0,4.0,1.0,5.0,18.0,60.0,4.0,4.0,3.0,4.0,1.0,4,5.0,5.0,30.0,75.0
+22042,mid,M,loyal,61,personal,eco plus,551,0,0,0,same,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,2.0,5.0,27.0,90.0,1.0,4.0,3.0,3.0,3.0,3,4.0,4.0,25.0,62.5
+97860,high,M,loyal,67,personal,business,616,27,26,1,recovered,neutral or dissatisfied,False,5.0,3.0,1.0,3.0,3.0,1.0,16.0,53.33,3.0,3.0,5.0,3.0,3.0,3,1.0,5.0,26.0,65.0
+107849,mid,F,loyal,70,personal,eco plus,349,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,5.0,2.0,3.0,19.0,63.33,5.0,5.0,4.0,4.0,2.0,5,4.0,4.0,33.0,82.5
+14115,mid,F,loyal,69,personal,eco plus,425,3,9,-6,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,4.0,20.0,66.67,2.0,2.0,4.0,5.0,3.0,2,3.0,5.0,26.0,65.0
+110526,high,M,loyal,67,personal,business,551,0,9,-9,worsened,neutral or dissatisfied,False,2.0,2.0,3.0,3.0,2.0,4.0,16.0,53.33,3.0,3.0,3.0,3.0,2.0,3,2.0,3.0,22.0,55.0
+60826,mid,M,loyal,63,personal,eco plus,524,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,4.0,2.0,4.0,19.0,63.33,4.0,2.0,3.0,3.0,3.0,2,3.0,2.0,22.0,55.0
+57076,mid,F,loyal,68,personal,eco plus,2065,5,0,5,recovered,neutral or dissatisfied,False,4.0,1.0,3.0,1.0,1.0,3.0,13.0,43.33,1.0,1.0,3.0,3.0,1.0,1,1.0,4.0,15.0,37.5
+77060,high,M,loyal,62,personal,business,991,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,3.0,3.0,18.0,60.0,1.0,1.0,1.0,4.0,3.0,1,4.0,3.0,18.0,45.0
+41642,high,F,loyal,67,personal,business,936,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,2.0,3.0,3.0,4.0,20.0,66.67,3.0,3.0,4.0,4.0,3.0,3,2.0,4.0,26.0,65.0
+12227,high,F,loyal,62,personal,business,127,16,13,3,recovered,neutral or dissatisfied,False,3.0,2.0,4.0,3.0,2.0,2.0,16.0,53.33,3.0,3.0,4.0,1.0,2.0,3,3.0,1.0,20.0,50.0
+85529,high,M,loyal,68,personal,business,259,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,5.0,4.0,4.0,2.0,20.0,66.67,4.0,4.0,3.0,5.0,4.0,4,4.0,3.0,31.0,77.5
+94108,high,F,loyal,62,personal,business,341,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,3.0,4.0,2.0,4.0,20.0,66.67,4.0,4.0,4.0,5.0,2.0,4,3.0,5.0,31.0,77.5
+22537,mid,F,loyal,63,personal,eco plus,214,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,5.0,2.0,1.0,4.0,17.0,56.67,2.0,2.0,3.0,3.0,1.0,2,3.0,2.0,18.0,45.0
+4819,high,F,loyal,61,personal,business,500,9,3,6,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,1.0,2.0,5.0,18.0,60.0,1.0,1.0,5.0,5.0,2.0,1,3.0,4.0,22.0,55.0
+262,high,M,loyal,63,personal,business,802,0,6,-6,worsened,neutral or dissatisfied,False,4.0,2.0,2.0,4.0,2.0,4.0,18.0,60.0,4.0,4.0,5.0,4.0,2.0,5,1.0,4.0,29.0,72.5
+26121,high,F,loyal,65,personal,business,581,4,0,4,recovered,neutral or dissatisfied,False,5.0,3.0,5.0,1.0,3.0,4.0,21.0,70.0,1.0,1.0,4.0,4.0,3.0,1,3.0,5.0,22.0,55.0
+12085,mid,F,loyal,68,personal,eco plus,376,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,4.0,3.0,3.0,21.0,70.0,4.0,4.0,5.0,5.0,3.0,4,5.0,4.0,34.0,85.0
+42606,high,F,loyal,64,personal,business,546,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,5.0,3.0,4.0,3.0,20.0,66.67,3.0,3.0,1.0,4.0,1.0,3,3.0,3.0,21.0,52.5
+75941,high,M,loyal,64,personal,business,297,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,5.0,1.0,2.0,2.0,15.0,50.0,1.0,1.0,3.0,4.0,2.0,1,3.0,4.0,19.0,47.5
+69494,mid,F,loyal,63,personal,eco plus,1096,0,24,-24,worsened,neutral or dissatisfied,False,5.0,1.0,2.0,2.0,1.0,4.0,15.0,50.0,2.0,2.0,1.0,4.0,1.0,4,5.0,,19.0,47.5
+121357,mid,F,loyal,68,personal,eco plus,430,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,2.0,4.0,1.0,4.0,19.0,63.33,4.0,4.0,4.0,4.0,3.0,4,3.0,4.0,30.0,75.0
+45081,mid,M,loyal,69,personal,eco plus,588,7,0,7,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,2.0,2.0,12.0,40.0,5.0,5.0,3.0,2.0,2.0,4,3.0,5.0,29.0,72.5
+95548,mid,M,loyal,67,personal,eco plus,189,28,23,5,recovered,neutral or dissatisfied,False,3.0,3.0,4.0,4.0,3.0,4.0,21.0,70.0,3.0,5.0,3.0,3.0,3.0,5,3.0,5.0,30.0,75.0
+42157,high,M,loyal,65,personal,business,817,0,3,-3,worsened,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,4.0,5.0,3.0,4,1.0,5.0,30.0,75.0
+124955,high,F,loyal,64,personal,business,184,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,4.0,3.0,5.0,24.0,80.0,4.0,4.0,3.0,5.0,3.0,4,3.0,5.0,31.0,77.5
+38388,mid,F,loyal,62,personal,eco plus,1180,0,15,-15,worsened,neutral or dissatisfied,False,5.0,3.0,2.0,3.0,3.0,5.0,21.0,70.0,3.0,3.0,3.0,5.0,3.0,3,3.0,5.0,28.0,70.0
+14843,high,M,loyal,68,personal,business,240,0,0,0,same,satisfied,True,4.0,4.0,3.0,3.0,4.0,3.0,21.0,70.0,3.0,3.0,3.0,4.0,4.0,4,5.0,4.0,30.0,75.0
+40357,high,M,loyal,62,personal,business,1250,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,2.0,3.0,4.0,21.0,70.0,2.0,2.0,1.0,4.0,3.0,2,3.0,3.0,20.0,50.0
+17634,mid,M,loyal,65,personal,eco plus,980,15,20,-5,worsened,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,3.0,4.0,21.0,70.0,4.0,5.0,3.0,4.0,4.0,5,2.0,4.0,31.0,77.5
+106641,mid,F,loyal,70,personal,eco plus,306,1,0,1,recovered,neutral or dissatisfied,False,5.0,2.0,2.0,4.0,2.0,3.0,18.0,60.0,4.0,4.0,3.0,4.0,2.0,4,4.0,4.0,29.0,72.5
+103139,mid,F,loyal,67,personal,eco plus,546,29,16,13,recovered,neutral or dissatisfied,False,4.0,3.0,1.0,2.0,3.0,3.0,16.0,53.33,2.0,2.0,2.0,3.0,3.0,2,3.0,3.0,20.0,50.0
+61860,mid,M,loyal,65,personal,eco plus,1346,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,2.0,2.0,12.0,40.0,3.0,4.0,5.0,1.0,1.0,4,3.0,5.0,26.0,65.0
+121083,mid,F,loyal,70,personal,eco plus,1013,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,3.0,1.0,1.0,15.0,50.0,3.0,3.0,3.0,4.0,2.0,3,4.0,1.0,23.0,57.5
+36851,mid,M,loyal,68,personal,eco plus,369,30,21,9,recovered,satisfied,True,3.0,4.0,3.0,3.0,5.0,3.0,21.0,70.0,1.0,3.0,2.0,1.0,1.0,4,3.0,5.0,20.0,50.0
+107219,mid,M,loyal,65,personal,eco plus,402,38,24,14,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,3.0,4.0,21.0,70.0,4.0,5.0,5.0,3.0,3.0,4,1.0,4.0,29.0,72.5
+124879,high,M,loyal,61,personal,business,728,13,14,-1,worsened,neutral or dissatisfied,False,3.0,3.0,1.0,4.0,3.0,4.0,18.0,60.0,4.0,4.0,3.0,3.0,3.0,4,4.0,1.0,26.0,65.0
+62851,high,F,loyal,65,personal,business,2446,11,0,11,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,2.0,18.0,60.0,2.0,2.0,4.0,2.0,3.0,3,4.0,4.0,24.0,60.0
+92305,high,M,loyal,70,personal,business,2556,1,0,1,recovered,satisfied,True,4.0,5.0,5.0,3.0,5.0,3.0,25.0,83.33,3.0,3.0,1.0,2.0,5.0,3,4.0,1.0,22.0,55.0
+26787,mid,F,loyal,61,personal,eco plus,1199,6,0,6,recovered,neutral or dissatisfied,False,4.0,1.0,2.0,3.0,2.0,1.0,13.0,43.33,3.0,3.0,3.0,3.0,1.0,3,4.0,1.0,21.0,52.5
+6217,high,M,loyal,70,personal,business,413,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,5.0,2.0,3.0,19.0,63.33,5.0,5.0,4.0,5.0,2.0,5,3.0,5.0,34.0,85.0
+44560,mid,F,loyal,70,personal,eco plus,157,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,1.0,2.0,3.0,1.0,14.0,46.67,2.0,2.0,3.0,3.0,3.0,2,3.0,3.0,21.0,52.5
+117840,mid,M,loyal,62,personal,eco plus,328,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,4.0,4.0,4.0,4.0,22.0,73.33,3.0,3.0,1.0,4.0,4.0,4,3.0,2.0,24.0,60.0
+104390,mid,F,loyal,61,personal,eco plus,228,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,2.0,20.0,66.67,4.0,4.0,3.0,3.0,3.0,4,3.0,4.0,28.0,70.0
+37241,high,F,loyal,67,personal,business,1005,7,10,-3,worsened,neutral or dissatisfied,False,4.0,3.0,3.0,5.0,3.0,4.0,22.0,73.33,5.0,5.0,5.0,4.0,3.0,5,3.0,5.0,35.0,87.5
+11529,mid,F,loyal,68,personal,eco plus,191,4,0,4,recovered,neutral or dissatisfied,False,4.0,2.0,2.0,5.0,2.0,4.0,19.0,63.33,5.0,5.0,3.0,4.0,2.0,5,4.0,5.0,33.0,82.5
+95564,mid,M,loyal,65,personal,eco plus,677,21,4,17,recovered,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,2.0,1.0,10.0,33.33,3.0,4.0,4.0,2.0,2.0,4,4.0,5.0,28.0,70.0
+10017,mid,F,loyal,62,personal,eco plus,508,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,1.0,3.0,5.0,22.0,73.33,1.0,1.0,3.0,4.0,3.0,1,5.0,5.0,23.0,57.5
+20601,mid,M,loyal,65,personal,eco plus,606,2,0,2,recovered,neutral or dissatisfied,False,3.0,3.0,4.0,4.0,3.0,4.0,21.0,70.0,4.0,5.0,5.0,3.0,3.0,5,3.0,5.0,33.0,82.5
+31880,mid,M,loyal,67,personal,eco plus,4983,0,0,0,same,satisfied,True,1.0,5.0,5.0,1.0,5.0,1.0,18.0,60.0,3.0,3.0,1.0,1.0,5.0,5,4.0,5.0,27.0,67.5
+121644,mid,M,loyal,69,personal,eco plus,912,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,1.0,4.0,20.0,66.67,5.0,5.0,5.0,1.0,1.0,4,2.0,4.0,27.0,67.5
+20328,high,F,loyal,66,personal,business,323,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,1.0,1.0,4.0,1.0,14.0,46.67,1.0,1.0,1.0,3.0,4.0,1,4.0,3.0,18.0,45.0
+84247,mid,M,loyal,61,personal,eco plus,432,21,9,12,recovered,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,2.0,1.0,10.0,33.33,4.0,3.0,2.0,2.0,2.0,3,3.0,3.0,22.0,55.0
+121395,high,F,loyal,61,personal,business,290,0,2,-2,worsened,satisfied,True,4.0,5.0,5.0,1.0,5.0,5.0,25.0,83.33,1.0,1.0,3.0,5.0,5.0,5,4.0,4.0,28.0,70.0
+128142,high,F,loyal,68,personal,business,1849,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,5.0,3.0,3.0,20.0,66.67,5.0,5.0,4.0,3.0,3.0,5,4.0,4.0,33.0,82.5
+4812,mid,F,loyal,64,personal,eco plus,438,14,9,5,recovered,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,2.0,3.0,25.0,83.33,5.0,5.0,5.0,5.0,5.0,5,3.0,4.0,37.0,92.5
+41067,high,F,loyal,61,personal,business,224,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,3.0,4.0,4.0,2.0,19.0,63.33,4.0,4.0,2.0,3.0,4.0,4,2.0,3.0,26.0,65.0
+16299,mid,M,loyal,70,personal,eco plus,748,0,7,-7,worsened,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,1.0,1.0,10.0,33.33,1.0,2.0,2.0,1.0,1.0,4,3.0,5.0,19.0,47.5
+48844,high,F,loyal,66,personal,business,86,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,5.0,3.0,4.0,22.0,73.33,5.0,5.0,5.0,5.0,3.0,5,5.0,5.0,38.0,95.0
+440,high,F,loyal,66,personal,business,396,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,4.0,1.0,1.0,3.0,18.0,60.0,1.0,1.0,3.0,5.0,4.0,1,4.0,5.0,24.0,60.0
+76337,high,F,loyal,69,personal,business,954,18,17,1,recovered,neutral or dissatisfied,False,1.0,1.0,4.0,2.0,1.0,3.0,12.0,40.0,2.0,2.0,1.0,3.0,1.0,5,2.0,5.0,21.0,52.5
+101567,mid,F,loyal,64,personal,eco plus,345,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,4.0,2.0,4.0,5.0,23.0,76.67,2.0,2.0,5.0,4.0,4.0,2,2.0,5.0,26.0,65.0
+94096,high,F,loyal,62,personal,business,562,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,2.0,3.0,1.0,3.0,14.0,46.67,3.0,3.0,5.0,4.0,1.0,3,2.0,5.0,26.0,65.0
+126922,high,F,loyal,66,personal,business,370,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,3.0,2.0,2.0,3.0,16.0,53.33,2.0,2.0,4.0,3.0,2.0,5,3.0,1.0,22.0,55.0
+57235,mid,F,loyal,64,personal,eco plus,1514,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,3.0,3.0,3.0,4.0,18.0,60.0,3.0,3.0,5.0,3.0,3.0,1,3.0,4.0,25.0,62.5
+99961,high,F,loyal,62,personal,business,888,3,0,3,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,3.0,3.0,4.0,22.0,73.33,3.0,3.0,5.0,4.0,3.0,3,5.0,5.0,31.0,77.5
+105201,mid,M,loyal,63,personal,eco plus,281,1,0,1,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,4.0,5.0,26.0,86.67,3.0,4.0,3.0,4.0,4.0,3,3.0,4.0,28.0,70.0
+110612,mid,F,loyal,69,personal,eco plus,551,4,0,4,recovered,satisfied,True,4.0,,5.0,5.0,,1.0,15.0,50.0,5.0,5.0,4.0,3.0,,5,4.0,4.0,30.0,75.0
+35612,mid,M,loyal,61,personal,eco plus,972,0,3,-3,worsened,neutral or dissatisfied,False,1.0,4.0,1.0,1.0,4.0,1.0,12.0,40.0,3.0,4.0,3.0,4.0,4.0,5,2.0,5.0,30.0,75.0
+21319,mid,F,loyal,64,personal,eco plus,692,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,5.0,3.0,5.0,24.0,80.0,5.0,5.0,3.0,4.0,3.0,2,2.0,4.0,28.0,70.0
+101083,high,M,loyal,69,personal,business,1069,40,26,14,recovered,neutral or dissatisfied,False,3.0,4.0,1.0,4.0,4.0,2.0,18.0,60.0,4.0,4.0,3.0,3.0,4.0,4,4.0,4.0,30.0,75.0
+54923,mid,M,loyal,68,personal,eco plus,862,1,16,-15,worsened,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,4.0,5.0,28.0,93.33,3.0,4.0,3.0,4.0,4.0,5,5.0,4.0,32.0,80.0
+83169,mid,M,loyal,69,personal,eco plus,983,9,18,-9,worsened,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,1.0,3.0,18.0,60.0,4.0,4.0,4.0,1.0,1.0,5,2.0,5.0,26.0,65.0
+114569,high,M,loyal,69,personal,business,417,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,3.0,3.0,5.0,18.0,60.0,3.0,3.0,4.0,4.0,3.0,3,1.0,3.0,24.0,60.0
+79282,high,F,loyal,67,personal,business,2248,0,13,-13,worsened,neutral or dissatisfied,False,1.0,5.0,2.0,5.0,2.0,1.0,16.0,53.33,5.0,3.0,1.0,1.0,2.0,4,2.0,4.0,22.0,55.0
+98328,high,F,loyal,70,personal,business,1189,4,3,1,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,3.0,20.0,66.67,3.0,3.0,4.0,5.0,3.0,5,3.0,4.0,30.0,75.0
+129117,mid,F,loyal,61,personal,eco plus,2583,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,1.0,3.0,1.0,4.0,17.0,56.67,1.0,1.0,4.0,4.0,1.0,3,3.0,1.0,18.0,45.0
+19141,mid,F,loyal,63,personal,eco plus,265,0,1,-1,worsened,neutral or dissatisfied,False,4.0,2.0,5.0,4.0,2.0,3.0,20.0,66.67,4.0,4.0,3.0,4.0,2.0,4,3.0,5.0,29.0,72.5
+73170,high,F,loyal,62,personal,business,1258,0,0,0,same,satisfied,True,2.0,3.0,2.0,4.0,4.0,4.0,19.0,63.33,4.0,4.0,2.0,2.0,3.0,4,1.0,2.0,22.0,55.0
+86735,mid,F,loyal,66,personal,eco plus,1747,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,5.0,1.0,1.0,3.0,14.0,46.67,1.0,1.0,4.0,3.0,1.0,1,3.0,1.0,15.0,37.5
+119018,high,M,loyal,67,personal,business,1460,0,25,-25,worsened,neutral or dissatisfied,False,4.0,4.0,3.0,2.0,4.0,3.0,20.0,66.67,2.0,2.0,3.0,3.0,4.0,2,1.0,4.0,21.0,52.5
+89243,mid,M,loyal,64,personal,eco plus,1892,21,0,21,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,3.0,4.0,22.0,73.33,4.0,2.0,4.0,3.0,3.0,2,3.0,3.0,24.0,60.0
+123383,mid,M,loyal,70,personal,eco plus,644,0,2,-2,worsened,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,1.0,2.0,14.0,46.67,3.0,4.0,5.0,1.0,1.0,4,4.0,5.0,27.0,67.5
+26122,high,F,loyal,64,personal,business,581,0,0,0,same,satisfied,True,4.0,3.0,5.0,2.0,4.0,5.0,23.0,76.67,2.0,2.0,4.0,4.0,3.0,2,4.0,4.0,25.0,62.5
+108948,mid,M,loyal,64,personal,eco plus,1066,15,3,12,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,2.0,4.0,21.0,70.0,5.0,4.0,3.0,2.0,2.0,4,2.0,4.0,26.0,65.0
+92957,mid,F,loyal,66,personal,eco plus,151,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,2.0,2.0,3.0,16.0,53.33,2.0,2.0,5.0,4.0,2.0,4,3.0,5.0,27.0,67.5
+24082,mid,M,loyal,68,personal,eco plus,866,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,4.0,4.0,23.0,76.67,3.0,1.0,3.0,4.0,4.0,4,1.0,5.0,25.0,62.5
+55195,mid,F,loyal,67,personal,eco plus,1504,6,0,6,recovered,neutral or dissatisfied,False,3.0,4.0,5.0,5.0,4.0,5.0,26.0,86.67,5.0,5.0,1.0,3.0,4.0,5,2.0,5.0,30.0,75.0
+70590,mid,M,loyal,70,personal,eco plus,1258,0,0,0,same,neutral or dissatisfied,False,3.0,5.0,3.0,3.0,3.0,3.0,20.0,66.67,4.0,5.0,5.0,3.0,3.0,3,2.0,5.0,30.0,75.0
+4258,high,M,loyal,65,personal,business,502,0,1,-1,worsened,neutral or dissatisfied,False,5.0,4.0,4.0,3.0,4.0,5.0,25.0,83.33,3.0,3.0,5.0,4.0,4.0,2,3.0,4.0,28.0,70.0
+76732,mid,F,loyal,62,personal,eco plus,547,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,3.0,3.0,2.0,4.0,16.0,53.33,3.0,3.0,2.0,3.0,2.0,4,3.0,1.0,21.0,52.5
+47562,mid,F,loyal,65,personal,eco plus,558,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,1.0,5.0,3.0,3.0,18.0,60.0,5.0,5.0,2.0,3.0,3.0,5,3.0,4.0,30.0,75.0
+108744,high,M,loyal,64,personal,business,404,2,0,2,recovered,neutral or dissatisfied,False,5.0,1.0,4.0,3.0,1.0,4.0,18.0,60.0,3.0,3.0,4.0,4.0,1.0,3,3.0,4.0,25.0,62.5
+47572,mid,F,loyal,66,personal,eco plus,590,0,2,-2,worsened,neutral or dissatisfied,False,5.0,1.0,2.0,5.0,1.0,3.0,17.0,56.67,5.0,5.0,4.0,4.0,1.0,5,1.0,4.0,29.0,72.5
+121503,mid,F,loyal,62,personal,eco plus,331,0,23,-23,worsened,neutral or dissatisfied,False,4.0,4.0,3.0,3.0,2.0,3.0,19.0,63.33,3.0,3.0,4.0,4.0,4.0,3,4.0,1.0,26.0,65.0
+91838,mid,M,loyal,69,personal,eco plus,590,2,1,1,recovered,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,1.0,1.0,10.0,33.33,4.0,4.0,2.0,1.0,1.0,4,4.0,3.0,23.0,57.5
+1563,high,M,loyal,67,personal,business,237,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,1.0,3.0,4.0,5.0,21.0,70.0,3.0,3.0,3.0,4.0,4.0,3,2.0,4.0,26.0,65.0
+129462,mid,M,loyal,66,personal,eco plus,414,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,2.0,2.0,1.0,2.0,13.0,43.33,3.0,4.0,2.0,1.0,1.0,4,4.0,4.0,23.0,57.5
+58949,mid,F,loyal,67,personal,eco plus,888,8,2,6,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,3.0,5.0,25.0,83.33,5.0,5.0,4.0,5.0,3.0,5,3.0,4.0,34.0,85.0
+5840,mid,F,loyal,68,personal,eco plus,157,0,0,0,same,satisfied,True,5.0,5.0,4.0,4.0,5.0,3.0,26.0,86.67,4.0,4.0,3.0,4.0,5.0,4,2.0,4.0,30.0,75.0
+113880,mid,M,loyal,67,personal,eco plus,1592,4,0,4,recovered,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,2.0,1.0,11.0,36.67,4.0,5.0,4.0,2.0,2.0,5,4.0,4.0,30.0,75.0
+54924,mid,M,loyal,69,personal,eco plus,862,0,0,0,same,neutral or dissatisfied,False,1.0,5.0,4.0,4.0,4.0,4.0,22.0,73.33,1.0,1.0,2.0,4.0,4.0,1,2.0,5.0,20.0,50.0
+103187,high,M,loyal,69,personal,business,814,8,3,5,recovered,neutral or dissatisfied,False,4.0,3.0,3.0,1.0,3.0,4.0,18.0,60.0,1.0,1.0,3.0,5.0,3.0,4,4.0,,21.0,52.5
+18450,high,M,loyal,66,personal,business,201,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,5.0,1.0,2.0,3.0,15.0,50.0,1.0,1.0,4.0,2.0,2.0,1,2.0,2.0,15.0,37.5
+82177,mid,F,loyal,66,personal,eco plus,237,18,19,-1,worsened,neutral or dissatisfied,False,4.0,,5.0,3.0,1.0,3.0,16.0,53.33,3.0,3.0,5.0,5.0,,3,5.0,4.0,28.0,70.0
+56792,high,M,loyal,61,personal,business,1728,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,2.0,2.0,4.0,16.0,53.33,2.0,2.0,4.0,5.0,2.0,2,1.0,5.0,23.0,57.5
+84187,high,M,loyal,68,personal,business,432,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,5.0,1.0,4.0,19.0,63.33,5.0,5.0,2.0,4.0,1.0,5,4.0,4.0,30.0,75.0
+37817,mid,M,loyal,63,personal,eco plus,1056,18,11,7,recovered,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,1.0,5.0,26.0,86.67,5.0,5.0,3.0,1.0,1.0,5,4.0,5.0,29.0,72.5
+110515,mid,M,loyal,70,personal,eco plus,925,1,0,1,recovered,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,3.0,2.0,16.0,53.33,4.0,4.0,4.0,3.0,3.0,5,2.0,4.0,29.0,72.5
+96681,mid,M,loyal,66,personal,eco plus,937,1,0,1,recovered,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,1.0,2.0,12.0,40.0,4.0,3.0,5.0,,,4,3.0,5.0,24.0,60.0
+43148,mid,F,loyal,69,personal,eco plus,192,0,0,0,same,neutral or dissatisfied,False,2.0,1.0,4.0,3.0,1.0,3.0,14.0,46.67,3.0,3.0,2.0,1.0,1.0,3,1.0,5.0,19.0,47.5
+55452,mid,F,loyal,63,personal,eco plus,2521,0,13,-13,worsened,neutral or dissatisfied,False,3.0,4.0,2.0,4.0,2.0,3.0,18.0,60.0,2.0,2.0,3.0,3.0,2.0,4,3.0,3.0,22.0,55.0
+40532,high,M,loyal,70,personal,business,216,7,1,6,recovered,neutral or dissatisfied,False,5.0,4.0,4.0,4.0,4.0,5.0,26.0,86.67,4.0,4.0,3.0,5.0,4.0,4,3.0,4.0,31.0,77.5
+51443,mid,M,loyal,69,personal,eco plus,190,6,18,-12,worsened,neutral or dissatisfied,False,1.0,1.0,1.0,1.0,3.0,1.0,8.0,26.67,1.0,4.0,2.0,3.0,3.0,3,2.0,3.0,21.0,52.5
+21577,mid,M,loyal,68,personal,eco plus,399,4,4,0,same,neutral or dissatisfied,False,1.0,4.0,4.0,4.0,4.0,4.0,21.0,70.0,4.0,4.0,5.0,4.0,4.0,5,5.0,4.0,35.0,87.5
+57946,high,M,loyal,66,personal,business,1062,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,5.0,4.0,3.0,1.0,18.0,60.0,4.0,4.0,1.0,5.0,3.0,4,2.0,3.0,26.0,65.0
+91859,mid,M,loyal,61,personal,eco plus,1619,4,0,4,recovered,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,3.0,1.0,12.0,40.0,4.0,5.0,5.0,3.0,3.0,5,2.0,5.0,32.0,80.0
+111239,mid,M,loyal,62,personal,eco plus,1506,0,1,-1,worsened,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,1.0,2.0,11.0,36.67,5.0,4.0,5.0,,,5,4.0,4.0,27.0,67.5
+63599,mid,F,loyal,69,personal,eco plus,2133,8,8,0,same,neutral or dissatisfied,False,5.0,3.0,2.0,1.0,3.0,3.0,17.0,56.67,1.0,1.0,3.0,3.0,3.0,1,1.0,4.0,17.0,42.5
+16632,high,F,loyal,70,personal,business,605,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,4.0,4.0,3.0,2.0,21.0,70.0,4.0,4.0,1.0,2.0,3.0,4,3.0,5.0,26.0,65.0
+57831,mid,F,loyal,64,personal,eco plus,622,9,11,-2,worsened,neutral or dissatisfied,False,4.0,3.0,2.0,5.0,4.0,3.0,21.0,70.0,5.0,5.0,3.0,4.0,3.0,5,2.0,5.0,32.0,80.0
+40948,mid,M,loyal,68,personal,eco plus,588,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,2.0,2.0,2.0,2.0,14.0,46.67,4.0,4.0,4.0,3.0,3.0,5,2.0,5.0,30.0,75.0
+97512,mid,M,loyal,61,personal,eco plus,670,0,11,-11,worsened,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,2.0,2.0,15.0,50.0,4.0,4.0,5.0,2.0,2.0,4,4.0,5.0,30.0,75.0
+52825,mid,F,loyal,69,personal,eco plus,2402,1,4,-3,worsened,neutral or dissatisfied,False,5.0,2.0,2.0,2.0,2.0,4.0,17.0,56.67,2.0,2.0,2.0,3.0,2.0,2,1.0,,14.0,35.0
+33544,high,M,loyal,65,personal,business,399,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,3.0,3.0,4.0,21.0,70.0,3.0,3.0,1.0,2.0,3.0,3,5.0,4.0,24.0,60.0
+48840,high,M,loyal,67,personal,business,86,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,5.0,4.0,4.0,4.0,25.0,83.33,4.0,4.0,5.0,4.0,4.0,4,2.0,4.0,31.0,77.5
+8744,mid,F,loyal,69,personal,eco plus,280,12,14,-2,worsened,neutral or dissatisfied,False,4.0,4.0,5.0,5.0,3.0,5.0,26.0,86.67,5.0,5.0,4.0,4.0,4.0,5,2.0,4.0,33.0,82.5
+73835,high,M,loyal,69,personal,business,1709,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,3.0,4.0,2.0,2.0,16.0,53.33,4.0,4.0,1.0,3.0,2.0,4,4.0,2.0,24.0,60.0
+121971,mid,F,disloyal,70,personal,business,130,0,0,0,same,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,3.0,1.0,12.0,40.0,3.0,4.0,3.0,,,4,5.0,5.0,24.0,60.0
+84250,high,F,loyal,69,personal,business,1814,0,13,-13,worsened,neutral or dissatisfied,False,4.0,4.0,4.0,2.0,4.0,4.0,22.0,73.33,2.0,2.0,3.0,3.0,4.0,2,3.0,5.0,24.0,60.0
+12783,high,F,loyal,68,personal,business,641,24,25,-1,worsened,neutral or dissatisfied,False,4.0,2.0,3.0,3.0,2.0,4.0,18.0,60.0,3.0,3.0,3.0,4.0,2.0,3,4.0,4.0,26.0,65.0
+40950,mid,M,loyal,66,personal,eco plus,574,0,8,-8,worsened,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,4.0,3.0,17.0,56.67,3.0,3.0,3.0,4.0,4.0,4,3.0,1.0,25.0,62.5
+24358,mid,M,loyal,69,personal,eco plus,634,0,2,-2,worsened,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,3.0,2.0,14.0,46.67,3.0,2.0,1.0,3.0,3.0,2,3.0,2.0,19.0,47.5
+128751,mid,F,loyal,70,personal,eco plus,2521,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,1.0,3.0,1.0,3.0,14.0,46.67,4.0,3.0,3.0,3.0,1.0,4,4.0,4.0,26.0,65.0
+89834,mid,F,loyal,68,personal,eco plus,950,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,1.0,3.0,4.0,4.0,18.0,60.0,3.0,3.0,2.0,1.0,4.0,3,1.0,1.0,18.0,45.0
+55194,mid,F,loyal,65,personal,eco plus,1504,0,0,0,same,satisfied,True,5.0,5.0,5.0,5.0,5.0,3.0,28.0,93.33,5.0,5.0,4.0,4.0,5.0,3,4.0,5.0,35.0,87.5
+31751,mid,M,loyal,64,personal,eco plus,862,20,14,6,recovered,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,2.0,4.0,23.0,76.67,5.0,5.0,5.0,2.0,2.0,5,5.0,5.0,34.0,85.0
+27880,mid,F,loyal,67,personal,eco plus,1448,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,5.0,2.0,3.0,2.0,17.0,56.67,2.0,2.0,1.0,3.0,3.0,2,3.0,1.0,17.0,42.5
+58464,mid,F,loyal,63,personal,eco plus,723,1,1,0,same,neutral or dissatisfied,False,4.0,3.0,1.0,4.0,3.0,2.0,17.0,56.67,4.0,4.0,1.0,3.0,3.0,5,3.0,3.0,26.0,65.0
+37025,mid,F,loyal,65,personal,eco plus,759,10,2,8,recovered,neutral or dissatisfied,False,4.0,1.0,5.0,5.0,1.0,4.0,20.0,66.67,5.0,5.0,4.0,4.0,1.0,5,3.0,5.0,32.0,80.0
+17280,mid,F,loyal,66,personal,eco plus,872,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,4.0,5.0,3.0,4.0,21.0,70.0,5.0,5.0,4.0,1.0,3.0,5,3.0,4.0,30.0,75.0
+117864,high,M,loyal,68,personal,business,255,5,1,4,recovered,neutral or dissatisfied,False,4.0,2.0,4.0,5.0,2.0,2.0,19.0,63.33,5.0,5.0,3.0,3.0,2.0,5,5.0,5.0,33.0,82.5
+51845,mid,M,loyal,69,personal,eco plus,651,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,5.0,5.0,2.0,5.0,22.0,73.33,3.0,5.0,4.0,2.0,2.0,3,2.0,3.0,24.0,60.0
+78636,mid,M,loyal,68,personal,eco plus,1953,0,0,0,same,satisfied,True,2.0,5.0,2.0,2.0,4.0,2.0,17.0,56.67,2.0,3.0,3.0,4.0,4.0,3,4.0,4.0,27.0,67.5
+2721,mid,F,loyal,63,personal,eco plus,562,17,19,-2,worsened,neutral or dissatisfied,False,3.0,2.0,4.0,1.0,2.0,1.0,13.0,43.33,1.0,1.0,2.0,2.0,2.0,1,2.0,3.0,14.0,35.0
+65276,mid,F,loyal,69,personal,eco plus,190,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,5.0,3.0,5.0,23.0,76.67,5.0,5.0,4.0,4.0,3.0,4,3.0,5.0,33.0,82.5
+91982,mid,M,loyal,70,personal,eco plus,2475,0,0,0,same,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,2.0,5.0,27.0,90.0,3.0,5.0,4.0,2.0,2.0,3,4.0,5.0,28.0,70.0
+113130,mid,F,loyal,65,personal,eco plus,569,10,0,10,recovered,neutral or dissatisfied,False,5.0,2.0,5.0,5.0,2.0,5.0,24.0,80.0,5.0,5.0,4.0,5.0,2.0,5,2.0,4.0,32.0,80.0
+31570,mid,M,loyal,65,personal,eco plus,846,3,0,3,recovered,neutral or dissatisfied,False,4.0,4.0,5.0,5.0,4.0,5.0,27.0,90.0,4.0,4.0,5.0,4.0,4.0,4,3.0,4.0,32.0,80.0
+32002,high,F,loyal,67,personal,business,101,0,4,-4,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,4.0,20.0,66.67,2.0,2.0,3.0,5.0,3.0,2,2.0,4.0,23.0,57.5
+94102,high,M,loyal,70,personal,business,239,17,14,3,recovered,neutral or dissatisfied,False,4.0,3.0,3.0,4.0,3.0,4.0,21.0,70.0,4.0,4.0,5.0,5.0,3.0,4,4.0,4.0,33.0,82.5
+40158,high,M,loyal,66,personal,business,531,0,0,0,same,satisfied,True,4.0,4.0,2.0,4.0,4.0,4.0,22.0,73.33,4.0,4.0,4.0,4.0,4.0,4,5.0,4.0,33.0,82.5
+127654,mid,M,loyal,62,personal,eco plus,1773,34,19,15,recovered,satisfied,True,5.0,1.0,5.0,5.0,,5.0,21.0,70.0,4.0,2.0,2.0,,,2,3.0,1.0,14.0,35.0
+123750,mid,F,loyal,69,personal,eco plus,96,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,1.0,3.0,4.0,4.0,20.0,66.67,3.0,3.0,4.0,3.0,4.0,3,3.0,4.0,27.0,67.5
+47260,high,F,loyal,69,personal,business,558,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,3.0,5.0,3.0,3.0,21.0,70.0,5.0,5.0,2.0,1.0,2.0,5,4.0,4.0,28.0,70.0
+87555,high,M,loyal,70,personal,business,432,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,5.0,3.0,1.0,4.0,19.0,63.33,3.0,3.0,1.0,2.0,1.0,3,2.0,4.0,19.0,47.5
+102908,high,M,loyal,61,personal,business,317,0,0,0,same,satisfied,True,4.0,5.0,2.0,2.0,5.0,1.0,19.0,63.33,2.0,2.0,2.0,3.0,5.0,2,2.0,5.0,23.0,57.5
+2009,mid,M,loyal,65,personal,eco plus,285,3,2,1,recovered,neutral or dissatisfied,False,1.0,4.0,2.0,2.0,1.0,2.0,12.0,40.0,5.0,5.0,4.0,1.0,1.0,4,1.0,5.0,26.0,65.0
+10262,high,F,loyal,63,personal,business,216,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,3.0,3.0,1.0,16.0,53.33,3.0,3.0,3.0,3.0,3.0,3,4.0,1.0,23.0,57.5
+108702,mid,F,loyal,64,personal,eco plus,577,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,4.0,3.0,5.0,25.0,83.33,4.0,4.0,4.0,5.0,3.0,4,3.0,4.0,31.0,77.5
+70531,high,M,loyal,66,personal,business,1258,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,4.0,2.0,1.0,3.0,15.0,50.0,2.0,2.0,3.0,3.0,1.0,2,2.0,4.0,19.0,47.5
+12093,high,M,loyal,61,personal,business,1034,0,13,-13,worsened,neutral or dissatisfied,False,5.0,4.0,3.0,3.0,4.0,3.0,22.0,73.33,3.0,3.0,5.0,4.0,4.0,3,2.0,4.0,28.0,70.0
+61566,mid,F,loyal,66,personal,eco plus,2419,17,0,17,recovered,neutral or dissatisfied,False,4.0,1.0,2.0,4.0,1.0,4.0,16.0,53.33,4.0,4.0,5.0,5.0,1.0,4,4.0,4.0,31.0,77.5
+52153,high,M,loyal,63,personal,business,598,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,2.0,4.0,18.0,60.0,1.0,1.0,4.0,4.0,3.0,1,5.0,2.0,21.0,52.5
+72745,high,M,loyal,61,personal,business,806,24,23,1,recovered,neutral or dissatisfied,False,4.0,2.0,3.0,2.0,2.0,3.0,16.0,53.33,2.0,2.0,3.0,3.0,2.0,2,1.0,5.0,20.0,50.0
+64422,high,M,loyal,68,personal,business,989,24,24,0,same,neutral or dissatisfied,False,4.0,4.0,3.0,4.0,4.0,5.0,24.0,80.0,4.0,4.0,5.0,5.0,4.0,4,4.0,4.0,34.0,85.0
+125029,mid,F,loyal,69,personal,eco plus,184,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,5.0,2.0,2.0,5.0,21.0,70.0,2.0,2.0,4.0,5.0,2.0,2,5.0,4.0,26.0,65.0
+68195,mid,M,loyal,65,personal,eco plus,597,0,0,0,same,neutral or dissatisfied,False,1.0,5.0,1.0,1.0,3.0,1.0,12.0,40.0,2.0,5.0,1.0,3.0,3.0,4,2.0,4.0,24.0,60.0
+97048,high,M,loyal,69,personal,business,1313,12,0,12,recovered,neutral or dissatisfied,False,4.0,2.0,2.0,4.0,2.0,2.0,16.0,53.33,4.0,4.0,3.0,4.0,2.0,5,4.0,4.0,30.0,75.0
+55206,mid,F,loyal,67,personal,eco plus,1379,0,3,-3,worsened,neutral or dissatisfied,False,4.0,4.0,2.0,1.0,4.0,3.0,18.0,60.0,1.0,1.0,3.0,3.0,4.0,1,1.0,4.0,18.0,45.0
+86881,mid,M,loyal,61,personal,eco plus,484,2,0,2,recovered,neutral or dissatisfied,False,2.0,4.0,2.0,2.0,4.0,2.0,16.0,53.33,4.0,5.0,5.0,4.0,4.0,5,3.0,5.0,35.0,87.5
+35726,mid,M,loyal,61,personal,eco plus,2475,0,0,0,same,neutral or dissatisfied,False,1.0,5.0,4.0,3.0,4.0,1.0,18.0,60.0,3.0,3.0,1.0,1.0,4.0,5,1.0,4.0,22.0,55.0
+34082,mid,F,loyal,62,personal,eco plus,1674,0,0,0,same,neutral or dissatisfied,False,5.0,1.0,1.0,1.0,1.0,1.0,10.0,33.33,1.0,1.0,1.0,3.0,1.0,1,3.0,4.0,15.0,37.5
+58856,high,M,loyal,65,personal,business,888,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,4.0,1.0,3.0,5.0,21.0,70.0,1.0,1.0,4.0,4.0,3.0,1,1.0,4.0,19.0,47.5
+104189,mid,F,loyal,66,personal,eco plus,349,0,3,-3,worsened,neutral or dissatisfied,False,5.0,2.0,3.0,1.0,2.0,5.0,18.0,60.0,1.0,1.0,5.0,5.0,2.0,1,5.0,4.0,24.0,60.0
+18970,mid,F,loyal,65,personal,eco plus,448,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,5.0,3.0,3.0,21.0,70.0,5.0,5.0,4.0,4.0,3.0,5,1.0,4.0,31.0,77.5
+105944,mid,M,loyal,69,personal,eco plus,1491,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,1.0,2.0,12.0,40.0,3.0,2.0,3.0,1.0,1.0,1,2.0,5.0,18.0,45.0
+31083,mid,F,loyal,61,personal,eco plus,641,17,11,6,recovered,neutral or dissatisfied,False,5.0,2.0,4.0,1.0,2.0,4.0,18.0,60.0,1.0,1.0,5.0,4.0,2.0,1,4.0,5.0,23.0,57.5
+37806,mid,M,loyal,63,personal,eco plus,1076,18,20,-2,worsened,neutral or dissatisfied,False,3.0,2.0,3.0,3.0,3.0,3.0,17.0,56.67,3.0,4.0,5.0,3.0,3.0,4,3.0,4.0,29.0,72.5
+119681,high,F,loyal,64,personal,business,1325,0,0,0,same,satisfied,True,4.0,4.0,3.0,1.0,4.0,3.0,19.0,63.33,1.0,1.0,4.0,4.0,4.0,1,4.0,4.0,23.0,57.5
+40645,mid,M,loyal,66,personal,eco plus,411,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,3.0,2.0,14.0,46.67,2.0,5.0,2.0,3.0,3.0,2,4.0,5.0,26.0,65.0
+84143,mid,M,loyal,66,personal,eco plus,782,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,5.0,2.0,5.0,25.0,83.33,5.0,5.0,3.0,2.0,2.0,5,1.0,4.0,27.0,67.5
+69930,mid,M,loyal,63,personal,eco plus,1514,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,5.0,5.0,2.0,5.0,22.0,73.33,3.0,3.0,2.0,1.0,1.0,3,3.0,4.0,20.0,50.0
+63980,mid,F,loyal,68,personal,eco plus,1192,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,4.0,3.0,2.0,4.0,20.0,66.67,3.0,3.0,5.0,3.0,2.0,3,3.0,4.0,26.0,65.0
+76835,high,F,loyal,64,personal,business,1195,2,0,2,recovered,neutral or dissatisfied,False,5.0,1.0,5.0,2.0,1.0,3.0,17.0,56.67,2.0,2.0,5.0,3.0,1.0,2,2.0,5.0,22.0,55.0
+106540,mid,F,loyal,67,personal,eco plus,321,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,5.0,5.0,2.0,3.0,21.0,70.0,5.0,5.0,1.0,3.0,2.0,5,2.0,4.0,27.0,67.5
+114560,high,M,loyal,68,personal,business,337,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,4.0,2.0,1.0,3.0,16.0,53.33,2.0,2.0,1.0,3.0,3.0,2,3.0,4.0,20.0,50.0
+58133,mid,F,loyal,64,personal,eco plus,589,37,26,11,recovered,neutral or dissatisfied,False,4.0,3.0,2.0,3.0,3.0,5.0,20.0,66.67,3.0,3.0,3.0,5.0,3.0,2,2.0,4.0,25.0,62.5
+81590,high,F,loyal,62,personal,business,334,0,1,-1,worsened,neutral or dissatisfied,False,3.0,2.0,4.0,4.0,2.0,3.0,18.0,60.0,4.0,4.0,2.0,3.0,2.0,5,3.0,2.0,25.0,62.5
+105436,mid,F,loyal,65,personal,eco plus,452,30,22,8,recovered,neutral or dissatisfied,False,4.0,3.0,5.0,5.0,3.0,4.0,24.0,80.0,5.0,5.0,3.0,5.0,3.0,5,2.0,4.0,32.0,80.0
+84971,mid,F,loyal,65,personal,eco plus,481,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,1.0,3.0,2.0,1.0,13.0,43.33,3.0,3.0,2.0,4.0,2.0,3,4.0,2.0,23.0,57.5
+34845,mid,M,loyal,67,personal,eco plus,301,0,12,-12,worsened,neutral or dissatisfied,False,5.0,1.0,5.0,5.0,3.0,5.0,24.0,80.0,2.0,5.0,2.0,3.0,3.0,4,3.0,5.0,27.0,67.5
+124331,mid,M,loyal,62,personal,eco plus,255,19,17,2,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,4.0,2.0,14.0,46.67,5.0,4.0,4.0,4.0,4.0,4,2.0,,27.0,67.5
+126669,high,M,loyal,64,personal,business,2276,13,0,13,recovered,neutral or dissatisfied,False,4.0,2.0,2.0,5.0,2.0,3.0,18.0,60.0,5.0,5.0,3.0,4.0,2.0,5,2.0,5.0,31.0,77.5
+125059,high,M,loyal,66,personal,business,90,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,2.0,3.0,2.0,4.0,17.0,56.67,3.0,3.0,3.0,4.0,2.0,3,4.0,4.0,26.0,65.0
+124329,mid,F,loyal,69,personal,eco plus,255,0,0,0,same,neutral or dissatisfied,False,3.0,,2.0,4.0,2.0,3.0,14.0,46.67,4.0,4.0,1.0,4.0,,4,3.0,2.0,22.0,55.0
+56782,mid,M,loyal,63,personal,eco plus,1068,32,0,32,recovered,neutral or dissatisfied,False,5.0,5.0,5.0,5.0,3.0,5.0,28.0,93.33,3.0,1.0,3.0,3.0,3.0,4,4.0,3.0,24.0,60.0
+129358,mid,M,loyal,68,personal,eco plus,2586,0,0,0,same,neutral or dissatisfied,False,2.0,1.0,2.0,2.0,2.0,2.0,11.0,36.67,5.0,3.0,1.0,1.0,1.0,3,1.0,3.0,18.0,45.0
+12503,mid,M,loyal,66,personal,eco plus,253,0,4,-4,worsened,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,2.0,5.0,26.0,86.67,2.0,3.0,2.0,2.0,2.0,2,3.0,1.0,17.0,42.5
+66805,high,F,loyal,70,personal,business,731,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,1.0,2.0,2.0,16.0,53.33,1.0,1.0,3.0,4.0,3.0,1,4.0,2.0,19.0,47.5
+84102,mid,M,loyal,67,personal,eco plus,773,1,0,1,recovered,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,3.0,4.0,23.0,76.67,5.0,5.0,5.0,3.0,3.0,5,2.0,5.0,33.0,82.5
+52041,mid,M,loyal,63,personal,eco plus,328,0,0,0,same,neutral or dissatisfied,False,1.0,1.0,1.0,1.0,3.0,1.0,8.0,26.67,3.0,3.0,3.0,3.0,3.0,4,4.0,1.0,24.0,60.0
+68371,high,M,loyal,61,personal,business,1045,0,0,0,same,neutral or dissatisfied,False,4.0,1.0,5.0,3.0,1.0,3.0,17.0,56.67,3.0,3.0,5.0,5.0,1.0,3,1.0,4.0,25.0,62.5
+38219,mid,F,loyal,63,personal,eco plus,1185,0,0,0,same,neutral or dissatisfied,False,2.0,2.0,4.0,4.0,2.0,2.0,16.0,53.33,4.0,4.0,3.0,4.0,2.0,4,2.0,3.0,26.0,65.0
+113836,mid,F,loyal,65,personal,eco plus,223,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,3.0,3.0,3.0,18.0,60.0,3.0,3.0,5.0,4.0,3.0,3,1.0,,22.0,55.0
+51445,mid,M,loyal,61,personal,eco plus,421,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,3.0,3.0,16.0,53.33,3.0,1.0,1.0,3.0,3.0,1,4.0,3.0,19.0,47.5
+75106,high,M,loyal,62,personal,business,1726,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,3.0,3.0,3.0,20.0,66.67,3.0,3.0,5.0,5.0,3.0,3,3.0,4.0,29.0,72.5
+99638,mid,F,loyal,70,personal,eco plus,1224,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,5.0,1.0,2.0,4.0,17.0,56.67,1.0,1.0,4.0,2.0,2.0,1,1.0,4.0,16.0,40.0
+63110,mid,F,loyal,65,personal,eco plus,967,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,5.0,5.0,4.0,4.0,26.0,86.67,5.0,5.0,4.0,5.0,4.0,5,3.0,4.0,35.0,87.5
+96746,mid,M,loyal,69,personal,eco plus,696,21,23,-2,worsened,neutral or dissatisfied,False,4.0,2.0,4.0,4.0,2.0,4.0,20.0,66.67,5.0,5.0,1.0,2.0,2.0,4,1.0,5.0,25.0,62.5
+22534,mid,M,loyal,69,personal,eco plus,145,30,18,12,recovered,neutral or dissatisfied,False,2.0,5.0,2.0,2.0,1.0,2.0,14.0,46.67,4.0,3.0,4.0,,,4,3.0,2.0,20.0,50.0
+17156,high,F,loyal,61,personal,business,643,0,0,0,same,satisfied,True,5.0,4.0,2.0,3.0,4.0,4.0,22.0,73.33,3.0,3.0,5.0,4.0,4.0,5,3.0,5.0,32.0,80.0
+84181,mid,M,loyal,66,personal,eco plus,231,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,2.0,2.0,2.0,2.0,14.0,46.67,3.0,5.0,4.0,2.0,2.0,5,2.0,4.0,27.0,67.5
+87938,high,M,loyal,70,personal,business,581,5,0,5,recovered,neutral or dissatisfied,False,4.0,2.0,5.0,4.0,3.0,5.0,23.0,76.67,4.0,4.0,4.0,5.0,2.0,4,1.0,4.0,28.0,70.0
+98034,mid,F,loyal,62,personal,eco plus,1014,0,12,-12,worsened,neutral or dissatisfied,False,2.0,3.0,3.0,1.0,2.0,1.0,12.0,40.0,1.0,1.0,4.0,1.0,3.0,1,2.0,1.0,14.0,35.0
+46777,mid,M,loyal,64,personal,eco plus,141,33,27,6,recovered,neutral or dissatisfied,False,5.0,4.0,5.0,5.0,3.0,5.0,27.0,90.0,3.0,1.0,3.0,3.0,3.0,5,2.0,5.0,25.0,62.5
+98004,mid,F,loyal,67,personal,eco plus,483,5,0,5,recovered,neutral or dissatisfied,False,5.0,5.0,3.0,2.0,1.0,1.0,17.0,56.67,2.0,2.0,4.0,4.0,5.0,1,5.0,5.0,28.0,70.0
+10025,high,F,loyal,68,personal,business,630,0,4,-4,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,5.0,3.0,5.0,24.0,80.0,5.0,5.0,3.0,5.0,3.0,5,3.0,4.0,33.0,82.5
+33298,mid,M,loyal,67,personal,eco plus,201,0,8,-8,worsened,neutral or dissatisfied,False,3.0,2.0,3.0,3.0,2.0,3.0,16.0,53.33,3.0,4.0,2.0,,,1,4.0,5.0,19.0,47.5
+34546,high,M,loyal,65,personal,business,1598,0,0,0,same,neutral or dissatisfied,False,4.0,2.0,4.0,2.0,2.0,3.0,17.0,56.67,2.0,2.0,3.0,4.0,2.0,2,4.0,5.0,24.0,60.0
+84646,mid,M,loyal,70,personal,eco plus,669,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,3.0,2.0,14.0,46.67,5.0,5.0,3.0,2.0,2.0,4,4.0,5.0,30.0,75.0
+101776,high,M,loyal,70,personal,business,1521,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,2.0,5.0,2.0,3.0,19.0,63.33,5.0,5.0,5.0,5.0,2.0,5,2.0,4.0,33.0,82.5
+39911,mid,M,loyal,63,personal,eco plus,272,0,0,0,same,neutral or dissatisfied,False,1.0,4.0,3.0,3.0,3.0,3.0,17.0,56.67,4.0,4.0,5.0,3.0,3.0,4,2.0,4.0,29.0,72.5
+96748,mid,F,loyal,64,personal,eco plus,696,14,0,14,recovered,neutral or dissatisfied,False,5.0,3.0,2.0,4.0,3.0,3.0,20.0,66.67,4.0,4.0,5.0,5.0,3.0,5,3.0,5.0,34.0,85.0
+31881,mid,F,loyal,62,personal,eco plus,4983,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,2.0,3.0,4.0,19.0,63.33,1.0,1.0,4.0,4.0,3.0,4,3.0,2.0,22.0,55.0
+28497,high,F,loyal,63,personal,business,2688,0,20,-20,worsened,neutral or dissatisfied,False,3.0,4.0,1.0,5.0,1.0,3.0,17.0,56.67,1.0,4.0,3.0,3.0,1.0,5,2.0,5.0,24.0,60.0
+119630,high,F,loyal,66,personal,business,1727,0,0,0,same,neutral or dissatisfied,False,5.0,4.0,1.0,5.0,4.0,3.0,22.0,73.33,5.0,5.0,4.0,4.0,4.0,5,3.0,5.0,35.0,87.5
+10254,high,M,loyal,61,personal,business,163,0,0,0,same,neutral or dissatisfied,False,5.0,,5.0,5.0,1.0,5.0,21.0,70.0,5.0,5.0,5.0,5.0,,5,4.0,5.0,34.0,85.0
+13850,mid,M,loyal,65,personal,eco plus,602,5,1,4,recovered,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,4.0,4.0,23.0,76.67,4.0,4.0,4.0,4.0,4.0,4,4.0,2.0,30.0,75.0
+27283,high,F,loyal,64,personal,business,679,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,3.0,4.0,3.0,5.0,22.0,73.33,4.0,4.0,3.0,4.0,3.0,4,1.0,5.0,28.0,70.0
+71295,mid,M,loyal,68,personal,eco plus,733,0,0,0,same,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,1.0,4.0,22.0,73.33,2.0,3.0,1.0,1.0,1.0,4,3.0,4.0,19.0,47.5
+87613,high,F,loyal,68,personal,business,606,0,7,-7,worsened,neutral or dissatisfied,False,5.0,3.0,4.0,2.0,3.0,3.0,20.0,66.67,2.0,2.0,5.0,5.0,3.0,2,5.0,4.0,28.0,70.0
+51441,mid,F,loyal,61,personal,eco plus,363,5,5,0,same,neutral or dissatisfied,False,5.0,3.0,3.0,1.0,3.0,5.0,20.0,66.67,1.0,1.0,5.0,5.0,3.0,1,4.0,5.0,25.0,62.5
+122715,high,F,loyal,69,personal,business,651,0,0,0,same,neutral or dissatisfied,False,3.0,4.0,5.0,1.0,4.0,1.0,18.0,60.0,1.0,1.0,2.0,4.0,4.0,1,3.0,2.0,18.0,45.0
+39331,mid,F,loyal,61,personal,eco plus,268,7,0,7,recovered,neutral or dissatisfied,False,1.0,2.0,4.0,1.0,2.0,4.0,14.0,46.67,1.0,1.0,2.0,5.0,2.0,2,3.0,,16.0,40.0
+18716,mid,M,loyal,62,personal,eco plus,253,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,2.0,3.0,15.0,50.0,2.0,4.0,4.0,2.0,2.0,4,3.0,1.0,22.0,55.0
+36003,high,M,loyal,68,personal,business,399,0,0,0,same,neutral or dissatisfied,False,3.0,2.0,1.0,4.0,2.0,4.0,16.0,53.33,4.0,4.0,4.0,3.0,2.0,5,4.0,1.0,27.0,67.5
+66095,mid,M,loyal,64,personal,eco plus,1055,20,17,3,recovered,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,3.0,2.0,14.0,46.67,4.0,3.0,2.0,3.0,3.0,3,3.0,3.0,24.0,60.0
+4715,mid,M,loyal,69,personal,eco plus,364,0,7,-7,worsened,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,4.0,4.0,23.0,76.67,2.0,4.0,3.0,4.0,4.0,3,3.0,2.0,25.0,62.5
+15659,high,M,loyal,69,personal,business,764,2,7,-5,worsened,neutral or dissatisfied,False,4.0,1.0,3.0,2.0,1.0,5.0,16.0,53.33,2.0,2.0,3.0,1.0,1.0,2,1.0,5.0,17.0,42.5
+99716,mid,M,loyal,64,personal,eco plus,667,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,3.0,3.0,4.0,3.0,21.0,70.0,5.0,4.0,5.0,4.0,4.0,5,2.0,5.0,34.0,85.0
+73216,mid,F,loyal,62,personal,eco plus,1258,27,27,0,same,neutral or dissatisfied,False,5.0,4.0,4.0,2.0,4.0,4.0,23.0,76.67,2.0,2.0,3.0,4.0,4.0,2,4.0,4.0,25.0,62.5
+10250,high,M,loyal,67,personal,business,191,5,10,-5,worsened,neutral or dissatisfied,False,4.0,1.0,2.0,1.0,1.0,4.0,13.0,43.33,1.0,1.0,4.0,5.0,1.0,1,4.0,4.0,21.0,52.5
+61864,mid,F,loyal,65,personal,eco plus,1379,4,0,4,recovered,satisfied,True,2.0,5.0,3.0,1.0,5.0,4.0,20.0,66.67,1.0,1.0,2.0,5.0,5.0,1,4.0,4.0,23.0,57.5
+4074,mid,M,loyal,62,personal,eco plus,479,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,3.0,3.0,2.0,3.0,17.0,56.67,3.0,5.0,4.0,2.0,2.0,1,2.0,4.0,23.0,57.5
+84574,mid,M,loyal,64,personal,eco plus,2486,0,5,-5,worsened,neutral or dissatisfied,False,1.0,3.0,1.0,1.0,3.0,1.0,10.0,33.33,2.0,3.0,3.0,3.0,3.0,4,3.0,4.0,25.0,62.5
+113238,high,M,loyal,61,personal,business,397,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,2.0,1.0,4.0,3.0,17.0,56.67,1.0,1.0,3.0,5.0,3.0,1,4.0,4.0,22.0,55.0
+128198,high,M,loyal,64,personal,business,602,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,4.0,4.0,24.0,80.0,4.0,4.0,5.0,4.0,4.0,5,2.0,4.0,32.0,80.0
+96940,high,M,loyal,68,personal,business,794,5,21,-16,worsened,neutral or dissatisfied,False,5.0,4.0,3.0,2.0,4.0,3.0,21.0,70.0,2.0,2.0,4.0,4.0,4.0,2,1.0,4.0,23.0,57.5
+75507,mid,M,loyal,61,personal,eco plus,2342,3,0,3,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,1.0,2.0,11.0,36.67,4.0,5.0,5.0,1.0,1.0,2,4.0,4.0,26.0,65.0
+17762,mid,F,loyal,69,personal,eco plus,383,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,5.0,1.0,3.0,3.0,19.0,63.33,1.0,1.0,4.0,5.0,3.0,1,3.0,5.0,23.0,57.5
+95570,mid,F,loyal,68,personal,eco plus,248,3,0,3,recovered,neutral or dissatisfied,False,4.0,2.0,2.0,2.0,2.0,5.0,17.0,56.67,2.0,2.0,4.0,5.0,2.0,2,1.0,5.0,23.0,57.5
+125958,mid,F,loyal,67,personal,eco plus,920,0,0,0,same,satisfied,True,3.0,4.0,2.0,2.0,4.0,3.0,18.0,60.0,2.0,2.0,3.0,2.0,4.0,2,2.0,3.0,20.0,50.0
+110281,high,F,loyal,62,personal,business,663,29,25,4,recovered,neutral or dissatisfied,False,4.0,4.0,3.0,4.0,4.0,5.0,24.0,80.0,4.0,4.0,4.0,2.0,4.0,4,3.0,5.0,30.0,75.0
+14232,mid,M,loyal,70,personal,eco plus,692,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,4.0,2.0,4.0,21.0,70.0,4.0,4.0,3.0,2.0,2.0,5,3.0,4.0,27.0,67.5
+60991,mid,M,loyal,70,personal,eco plus,888,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,3.0,3.0,2.0,3.0,15.0,50.0,3.0,3.0,4.0,2.0,2.0,3,3.0,1.0,21.0,52.5
+100789,high,F,loyal,69,personal,business,748,0,0,0,same,neutral or dissatisfied,False,4.0,3.0,4.0,2.0,3.0,3.0,19.0,63.33,2.0,2.0,4.0,4.0,3.0,2,3.0,4.0,24.0,60.0
+66094,mid,M,loyal,62,personal,eco plus,1345,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,4.0,2.0,15.0,50.0,4.0,5.0,3.0,4.0,4.0,5,5.0,4.0,34.0,85.0
+48820,high,M,loyal,68,personal,business,209,0,1,-1,worsened,satisfied,True,2.0,4.0,3.0,4.0,4.0,5.0,22.0,73.33,4.0,4.0,4.0,5.0,4.0,4,3.0,5.0,33.0,82.5
+19803,high,F,loyal,62,personal,business,632,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,5.0,4.0,1.0,3.0,17.0,56.67,4.0,4.0,4.0,4.0,1.0,4,3.0,1.0,25.0,62.5
+37949,mid,M,loyal,61,personal,eco plus,1068,0,0,0,same,neutral or dissatisfied,False,4.0,4.0,4.0,4.0,4.0,4.0,24.0,80.0,3.0,4.0,5.0,4.0,4.0,4,1.0,4.0,29.0,72.5
+118266,mid,F,loyal,68,personal,eco plus,1788,8,0,8,recovered,neutral or dissatisfied,False,5.0,2.0,2.0,4.0,2.0,4.0,19.0,63.33,4.0,4.0,5.0,4.0,2.0,4,4.0,4.0,31.0,77.5
+11484,mid,M,loyal,65,personal,eco plus,429,0,0,0,same,neutral or dissatisfied,False,5.0,3.0,5.0,5.0,3.0,5.0,26.0,86.67,3.0,4.0,2.0,3.0,3.0,3,4.0,1.0,23.0,57.5
+1401,mid,F,loyal,70,personal,eco plus,134,0,0,0,same,neutral or dissatisfied,False,2.0,,4.0,3.0,1.0,1.0,11.0,36.67,3.0,3.0,4.0,1.0,,5,1.0,1.0,18.0,45.0
+80709,mid,M,loyal,64,personal,eco plus,748,0,0,0,same,neutral or dissatisfied,False,4.0,5.0,4.0,4.0,2.0,4.0,23.0,76.67,4.0,4.0,3.0,2.0,2.0,5,1.0,4.0,25.0,62.5
+45578,high,M,loyal,70,personal,business,230,9,0,9,recovered,satisfied,True,5.0,,5.0,2.0,4.0,4.0,20.0,66.67,2.0,2.0,4.0,4.0,,2,1.0,5.0,20.0,50.0
+26125,high,F,loyal,66,personal,business,406,3,8,-5,worsened,neutral or dissatisfied,False,4.0,2.0,3.0,1.0,2.0,3.0,15.0,50.0,1.0,1.0,4.0,5.0,2.0,1,4.0,4.0,22.0,55.0
+40951,mid,F,loyal,67,personal,eco plus,599,16,6,10,recovered,neutral or dissatisfied,False,3.0,1.0,2.0,4.0,1.0,3.0,14.0,46.67,4.0,4.0,4.0,3.0,1.0,4,2.0,5.0,27.0,67.5
+9728,mid,F,loyal,66,personal,eco plus,277,10,0,10,recovered,neutral or dissatisfied,False,4.0,3.0,3.0,3.0,1.0,3.0,17.0,56.67,3.0,3.0,4.0,3.0,3.0,3,4.0,2.0,25.0,62.5
+48037,high,F,loyal,69,personal,business,677,0,16,-16,worsened,neutral or dissatisfied,False,4.0,3.0,5.0,1.0,2.0,1.0,16.0,53.33,1.0,1.0,3.0,4.0,3.0,1,3.0,4.0,20.0,50.0
+107084,mid,F,loyal,70,personal,eco plus,395,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,5.0,3.0,3.0,3.0,20.0,66.67,3.0,3.0,1.0,4.0,3.0,3,4.0,2.0,23.0,57.5
+78874,mid,M,loyal,62,personal,eco plus,1995,12,0,12,recovered,neutral or dissatisfied,False,1.0,1.0,1.0,1.0,1.0,1.0,6.0,20.0,4.0,4.0,1.0,1.0,1.0,4,4.0,1.0,20.0,50.0
+51374,mid,M,loyal,65,personal,eco plus,337,0,0,0,same,neutral or dissatisfied,False,3.0,1.0,4.0,4.0,3.0,4.0,19.0,63.33,3.0,5.0,2.0,3.0,3.0,1,2.0,4.0,23.0,57.5
+36723,mid,M,loyal,66,personal,eco plus,1249,0,0,0,same,neutral or dissatisfied,False,2.0,4.0,2.0,2.0,1.0,2.0,13.0,43.33,5.0,4.0,4.0,1.0,1.0,5,2.0,4.0,26.0,65.0
+99721,high,F,loyal,67,personal,business,255,0,0,0,same,neutral or dissatisfied,False,2.0,3.0,2.0,5.0,3.0,1.0,16.0,53.33,5.0,5.0,5.0,3.0,3.0,5,3.0,,29.0,72.5
+120096,high,M,loyal,70,personal,business,1576,0,0,0,same,neutral or dissatisfied,False,3.0,3.0,2.0,3.0,3.0,1.0,15.0,50.0,3.0,3.0,4.0,4.0,3.0,3,3.0,2.0,25.0,62.5
+96123,mid,M,loyal,62,personal,eco plus,1235,1,0,1,recovered,neutral or dissatisfied,False,2.0,3.0,2.0,2.0,1.0,2.0,12.0,40.0,5.0,4.0,4.0,1.0,1.0,4,3.0,5.0,27.0,67.5
+18972,mid,F,loyal,70,personal,eco plus,500,0,7,-7,worsened,neutral or dissatisfied,False,4.0,4.0,2.0,4.0,4.0,5.0,23.0,76.67,4.0,4.0,4.0,4.0,4.0,4,2.0,4.0,30.0,75.0
+10267,high,F,loyal,65,personal,business,270,0,0,0,same,satisfied,True,4.0,4.0,2.0,1.0,4.0,5.0,20.0,66.67,1.0,1.0,3.0,5.0,4.0,1,1.0,4.0,20.0,50.0
+67995,mid,F,loyal,67,personal,eco plus,1171,0,2,-2,worsened,neutral or dissatisfied,False,4.0,3.0,2.0,3.0,3.0,3.0,18.0,60.0,3.0,3.0,4.0,3.0,3.0,3,2.0,4.0,25.0,62.5
+4948,high,F,loyal,70,personal,business,931,5,6,-1,worsened,neutral or dissatisfied,False,3.0,3.0,3.0,5.0,3.0,4.0,21.0,70.0,5.0,5.0,1.0,3.0,3.0,3,4.0,4.0,28.0,70.0
+40334,mid,F,loyal,70,personal,eco plus,347,0,0,0,same,neutral or dissatisfied,False,5.0,2.0,3.0,4.0,2.0,3.0,19.0,63.33,4.0,4.0,5.0,4.0,2.0,4,4.0,5.0,32.0,80.0
+107455,mid,M,loyal,61,personal,eco plus,468,11,10,1,recovered,neutral or dissatisfied,False,2.0,2.0,2.0,2.0,4.0,2.0,14.0,46.67,3.0,2.0,5.0,4.0,4.0,4,2.0,4.0,28.0,70.0
